@@ -18,8 +18,9 @@
         <div>
             <nav>
                 <a href="index.html" title="Home page">Home</a> |
-                <a href="About Us.html" title="About Us page">About Us</a> |
+                <a href="About_Us.html" title="About Us page">About Us</a> |
                 <a href="#" title="Contact page">Contact</a> |
+                <a href="Enquiry.html" title="Enquiry page">Enquiry</a> |
                 <a href="Products.html" title="Products page">Products</a>
             </nav>
         </div>
@@ -27,7 +28,9 @@
 
     <main>
         <section>
-            <img src="/My Website/Images/StoreFront logo.png" alt="Terrain Logo">
+            <!--I want to have the image a little smaller than half the top screen and the rest just black. With a black
+            overlay and the words: "Contact Us" "We exist because of you, and are ready to listen to any of your concerns" -->
+            <img src="/My Website/Images/StoreFront logo.png" alt="Terrain Logo" width="500">
             <div>
                 <h1>Contact Us</h1>
                 <p>We exist because of you, and are ready to listen to any of your concerns</p>
@@ -36,18 +39,25 @@
 
         <section>
             <div>
+                <!--This section will be on left bottom screen and will have an email logo on the top of the sentence-->
                 <p>For any inquiries, email us at:</p>
                 <a href="mailto:terrain974@gmail.com">terrain974@gmail.com</a>
             </div>
 
             <div>
                 <h2>Contact</h2>
+                <!--This entire form will be on the bottom right side of the screen.
+                This section collects information that users gives and sends it to us.-->
                 <form>
                     <div>
+                        <!--The input element is used becaused your first and last name are single entries.
+                        The type atrribute is used to specify that the entry is text. 
+                        The placeholder is for both aesthetic purposes and to let the user know what to enter on each line.-->
                         <input type="text" placeholder="First Name">
                         <input type="text" placeholder="Last Name">
                     </div>
                     <input type="email" placeholder="Email">
+                    <!--Textarea is used for multi line entries and a message is going to probably be multiple lines.-->
                     <textarea placeholder="Write a message"></textarea> 
                     <button type="submit">Submit</button>
                 </form>
