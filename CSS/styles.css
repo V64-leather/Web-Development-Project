@@ -171,7 +171,7 @@ body{
 
 /*COMMUNITY HERO*/
 .community-hero{
-    background-color: #0a0a0a;
+    background-color: black;
     border-radius: 16px;
     margin: 40px;
     padding: 100px 40px;
@@ -225,7 +225,7 @@ body{
 .community-stats{
     display: flex;
     justify-content: space-around;
-    background-color: #0a0a0a;
+    background-color: black;
     color: white;
     padding: 50px 40px;
     margin: 0 40px 40px;
@@ -252,4 +252,146 @@ body{
     color: #555;
     font-size: 0.85rem;
     border-top: 1px solid #1f1f1f;
+}
+
+/*ABOUT HERO*/
+.about-hero{
+    position: relative;
+    background-color: #0a0a0a;
+    min-height: 700px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.character-layer{
+    position: absolute;
+    inset: 0;
+}
+
+.char-main{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 95%;
+    width: auto;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.char-bg{
+    position: absolute;
+    opacity: 0.25;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.char-bg-1{
+    right: 300px;
+    bottom: 300px;
+    height: 50%;
+    opacity: 0.35;
+
+}
+
+.char-bg-2{
+    right: 0;
+    bottom: 400px;
+    height: 50%;
+    opacity: 0.35;
+}
+
+.char-bg-3{
+    right: 0;
+    bottom: 0;
+    height: 40%;
+    opacity: 0.35;
+}
+
+.about-hero-text{
+    position: relative;
+    z-index: 3;
+    padding: 60px 40px 60px 420px;
+}
+
+.about-hero-text h1{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 4px;
+    color: #ffffff
+    text-transform: uppercase;
+}
+
+.about-hero-text h1:nth-child(2) {
+    color: #e05c2a;
+}
+
+/*ABOUT SECTIONS*/
+.about-section{
+    padding: 60px 80px;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.about-section h2{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.about-section p{
+    color: #aaaaaa;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+/*MISSION LIST*/
+.mission-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+}
+
+.mission-list li{
+    color: #aaaaaa;
+    padding-left: 20px;
+    border-left: 3px solid #e05c2a;
+    line-height: 1.6;
+}
+
+/*TEAM GRID*/
+.team-intro{
+    margin-bottom: 32px;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-card{
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.team-card h3{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.team-card h3 span{
+    color: #e05c2a;
+    font-weight: 400;
+}
+
+.team-card p{
+    color: #888888;
+    font-size: 0.9rem;
+    line-height: 1.6;
 }

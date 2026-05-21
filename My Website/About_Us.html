@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>About us</title>
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
         
-        <div>
+        <div class="logo">
             <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo" width="80">
             <h1> STELLAR</h1>
         </div>
 
         <!--Nav contents to the far right of the screen-->
         <div>
-            <nav>
-                <a href="index.html" title="Home page">Home</a> |
-                <a href="#" title="About Us page">About Us</a> |
-                <a href="Contact.html" title="Contact page">Contact</a> |
-                <a href="Enquiry.html" title="Enquiry page">Enquiry</a> |
-                <a href="Products.html" title="Products page">Products</a>
+            <nav class="main-nav">
+                <a href="index.html" title="Home page">Home</a> 
+                <a href="#" title="About Us page">About Us</a> 
+                <a href="Contact.html" title="Contact page">Contact</a> 
+                <a href="Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="Products.html" title="Products page">Products</a>   
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="about-hero">
+            <div character-layer>
                 <!--These will be background images ontop will be big bold words -->
-                <img src="/My Website/Images/Marvel spiderman background pic.jpg" alt="Marvel Spiderman">
-                <img src="/My Website/Images/Hollow Knight background pic.jpg" alt="Hollow Knight">
-                <img src="/My Website/Images/Ghost of Tsushima background pic.png" alt="Ghost of Tshushima">
+                <img src="/My Website/Images/Spiderman( transperent ).png" alt="Marvel Spiderman" class="char-main">
+                <img src="/My Website/Images/Hollow knight( transperent).webp" alt="Hollow Knight" class="char-bg char-bg-1">
+                <img src="/My Website/Images/Ghost of Tsushima background pic.png" alt="Ghost of Tshushima" class="char-bg char-bg-2">
+                <img src="/My Website/Images/Alloy( Horizon Zero Dawn ).png" alt="Alloy" class="char-bg char-bg-3">
             </div>
 
-            <div>
+            <div class="about-hero-text">
                 <h1>BUILT BY</h1>
                 <h1>GAMERS</h1>
                 <h1>FOR GAMERS</h1>
             </div>
         </section>
 
-        <section>
+        <section class="about-section">
             <h2>Organisational History</h2>
             <p>Terrain started out with a group of 5 friends 
                 deciding out of a deep passion for video games to create an 
@@ -58,10 +60,10 @@
             </p>
         </section>
 
-        <section>
+        <section class="about-section">
             <h2>Mission and Vision Statements</h2>
             <!--The ul and li elements are used for listing items.-->
-            <ul>
+            <ul class="mission-list">
                 <li>Create a space that prioritizes user and developer experiences</li>
                 <li>Making old video games only available on previous console generations more accessible on PC</li>
                 <li>Making it easier for new developers to get more exposure</li>
@@ -75,73 +77,69 @@
             </ul>
         </section>
 
-        <section>
+        <section class="about-section">
             <h2>Team Members</h2>
-            <p>Terrain is the platform it is today thanks to our team of 30+ members. These wonderful 
+            <p class="team-intro">Terrain is the platform it is today thanks to our team of 30+ members. These wonderful 
                 individuals satisfy roles for support, maintenance, leadership, etc to ensure that Terrain
                 continues to prioritize and satisfy developer and consumer needs. Here is a breakdown 
                 of the departments that our team consists of:</p>
 
-            <article>
-                <h3>Leadership Team(2 members)</h3>
-                <p>Everything concerning Terrain as a platform is overlooked by this department.
-                    They are in charge of making critical decisions that align with the goals of the platform and
-                    ensure continued growth
-                </p>
-            </article>
-
-            <article>
-                <h3>Development Team(9 members)</h3>
-                <p>They are in charge of the platforms building, security, functionality and etc. The 
-                    maintaining and various performance updates of the platform are up to this team.
-                </p>
-            </article>
-
-            <article>
-                <h3>Design Team(4 members)</h3>
-                <p>One of our points under Vision Statements talks about prioritizing user and developer 
-                    experiences, this team is responsible for bringing that vision to life. Which is 
-                    reflective/revealing in our platforms user friendly nature and pleasing aesthetic.
-                </p>
-            </article>
-
-            <articLe>
-                <h3>Products Team(5 members)</h3>
-                <p>The games/content that you see on our platform has been checked and verified 
-                    beforehand, to ensure that it is a serviceable product. This team is in charge of this
-                    moderation, are the ones pushing the featured games on the home page and also 
-                    create sections for the games on the products page.
-                </p>
-            </articLe>
-
-            <article>
-                <h3>Marketing and Community(4 members)</h3>
-                <p>This team works to bring even more members to our platform and continue to grow.
-                    They bring more attention to Terrain through our social media and interacts with the 
-                    gaming community which improves our standing in the community as a trustworthy, 
-                    consumer-friendly option for gamers.
-                </p>
-            </article>
-
-            <article>
-                <h3>Customer Support(4 members)</h3>
-                <p>Whether it be account recovery, needing to change a password or applying for a 
-                    refund, our support staff has you covered. They are responsible for giving you as 
-                    smooth of an experience as possible. Even accepting of just general inquiries about 
-                    our platform.
-                </p>
-            </article>
-
-            <article>
-                <h3>Administration Team(2 members)</h3>
-                <p>This team handles the innerworkings of the business such as; finances, coordination
-                    and just the general internal operations of the platform.
-                </p>
-            </article>
+            <div class="team-grid">
+                <article class="team-card">
+                    <h3>Leadership Team <span> (2 members) </span> </h3>
+                    <p>Everything concerning Terrain as a platform is overlooked by this department.
+                        They are in charge of making critical decisions that align with the goals of the platform and
+                        ensure continued growth
+                    </p>
+                </article>
+                <article class="team-card">
+                    <h3>Development Team <span>(9 members)</span></h3>
+                    <p>They are in charge of the platforms building, security, functionality and etc. The
+                        maintaining and various performance updates of the platform are up to this team.
+                    </p>
+                </article>
+                <article class="team-card">
+                    <h3>Design Team<span>(4 members)</span></h3>
+                    <p>One of our points under Vision Statements talks about prioritizing user and developer
+                        experiences, this team is responsible for bringing that vision to life. Which is
+                        reflective/revealing in our platforms user friendly nature and pleasing aesthetic.
+                    </p>
+                </article>
+                <articLe class="team-card">
+                    <h3>Products Team<span>(5 members)</span></h3>
+                    <p>The games/content that you see on our platform has been checked and verified
+                        beforehand, to ensure that it is a serviceable product. This team is in charge of this
+                        moderation, are the ones pushing the featured games on the home page and also
+                        create sections for the games on the products page.
+                    </p>
+                </articLe>
+                <article class="team-card">
+                    <h3>Marketing and Community<span>(4 members)</span></h3>
+                    <p>This team works to bring even more members to our platform and continue to grow.
+                        They bring more attention to Terrain through our social media and interacts with the
+                        gaming community which improves our standing in the community as a trustworthy,
+                        consumer-friendly option for gamers.
+                    </p>
+                </article>
+                <article class="team-card">
+                    <h3>Customer Support<span>(4 members)</span></h3>
+                    <p>Whether it be account recovery, needing to change a password or applying for a
+                        refund, our support staff has you covered. They are responsible for giving you as
+                        smooth of an experience as possible. Even accepting of just general inquiries about
+                        our platform.
+                    </p>
+                </article>
+                <article class="team-card">
+                    <h3>Administration Team<span>(2 members)</span></h3>
+                    <p>This team handles the innerworkings of the business such as; finances, coordination
+                        and just the general internal operations of the platform.
+                    </p>
+                </article>
+            </div>
         </section>
     </main>
 
-     <footer>
+     <footer class="site-footer">
         <p>&copy;StoreFront 2026</p>
 
     </footer>
