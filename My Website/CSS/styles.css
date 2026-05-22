@@ -1,4 +1,11 @@
 /*GLOBAL*/
+
+/* Start of the comments for " * " */
+  /* The " * " is used to affect every single element on the page */
+  /* The " margin: 0 " removes all the default outer spacing */
+  /* The " padding: 0 " removes all default inner spacing */
+  /* The " box-sizing: border-box " makes width and height include padding and borders*/
+/* End of the comments for " * " */
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +19,17 @@ body{
 }
 
 /*HEADER*/
+
+/* Start of the comments for " .site-header " */
+  /* The " .site-header " affects my header element */
+  /* The " display: flex " places my " .logo " and " .main-nav " in one row */
+  /* The " justify-content: space-between " pushes the " .logo " to the left and the " .main-nav " to the right */
+  /* The " align-items: center " vertically centers both the " .logo " and " .main-nav " */
+  /* The " padding: 16px 40px "  adds 16px of padding on the top and bottom, as well as 40px of padding on the left and right */
+  /* The " position: sticky; top: 0 " keeps the header stuck to the top while scrolling */
+  /* The " z-index: 100 " ensures the header stays above other sections */
+  /* The " border: bottom " adds a line underneath the header */
+/* End of the comments for " .site-header " */
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -24,6 +42,12 @@ body{
     border-bottom: 1px solid #1f1f1f;
 }
 
+/* Start of the comments for the " .logo " */
+  /* The " .logo " affects the logo and h1 element */
+  /* The " display: flex " places the images and heading side by side */
+  /* The " align-items: center " centers the logo and heading vertically */
+  /* The " gap: 12px " adds 12px of space between the logo and heading */
+/* End of the comments for the " .logo " */
 .logo{
     display: flex;
     align-items: center;
@@ -40,11 +64,21 @@ body{
     width: 50px;
 }
 
+/* The start of the comments for the " main-nav " */
+  /* The " .main-nav " affects the navigation bar */
+  /* The " display: flex " places links in one row */
+  /* The " gap: 30px " adds 30px of space between the links */
+/* End of the comments for the " main-nav " */
 .main-nav{
     display: flex;
     gap: 30px;
 }
 
+/* The start of the comments for the " .main-nav a " */
+  /* The " main-nav " affects the a elements under the nav element */
+  /* The " text-decoration: none " removes the default link decoration */
+  /* The " transition: colour 0.2s " adds the hover animation */ 
+/* End of the comments for " .main-nav " */
 .main-nav a{
     color: #aaaaaa;
     text-decoration: none;
@@ -53,6 +87,7 @@ body{
     transition: color 0.2s;
 }
 
+/* The " .main-nav a:hover " affects the hover animation */
 .main-nav a:hover{
     color: #ffffff;
 }
