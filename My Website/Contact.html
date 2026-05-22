@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Contact</title>
 </head>
 <body>
@@ -15,8 +16,8 @@
         </div>
 
         <!--Nav contents to the far right of the screen-->
-        <div class="main-nav">
-            <nav>
+        <div>
+            <nav class="main-nav">
                 <a href="index.html" title="Home page">Home</a> 
                 <a href="About_Us.html" title="About Us page">About Us</a> 
                 <a href="#" title="Contact page">Contact</a> 
@@ -27,29 +28,30 @@
     </header>
 
     <main>
-        <section>
+        <section class="contact-hero">
             <!--I want to have the image a little smaller than half the top screen and the rest just black. With a black
             overlay and the words: "Contact Us" "We exist because of you, and are ready to listen to any of your concerns" -->
             <img src="/My Website/Images/Space game pic( Contact page ).jpg" alt="Space game" width="500">
-            <div>
+            <div class="contact-hero-text">
                 <h1>Contact Us</h1>
                 <p>We exist because of you, and are ready to listen to any of your concerns</p>
             </div>
         </section>
 
-        <section>
-            <div>
+        <section class="contact-body">
+            <div class="contact-info">
+                <div class="email-icon">&#9993;</div>
                 <!--This section will be on left bottom screen and will have an email logo on the top of the sentence-->
                 <p>For any inquiries, email us at:</p>
                 <a href="mailto:terrain974@gmail.com">terrain974@gmail.com</a>
             </div>
 
-            <div>
+            <div class="contact-form-wrapper">
                 <h2>Contact</h2>
                 <!--This entire form will be on the bottom right side of the screen.
                 This section collects information that users gives and sends it to us.-->
-                <form>
-                    <div>
+                <form class="contact-form">
+                    <div class="name-fields">
                         <!--The input element is used becaused your first and last name are single entries.
                         The type atrribute is used to specify that the entry is text. 
                         The placeholder is for both aesthetic purposes and to let the user know what to enter on each line.-->
@@ -65,7 +67,7 @@
         </section>
     </main>
 
-     <footer>
+     <footer class="site-footer">
         <p>&copy;StoreFront 2026</p>
 
     </footer>
