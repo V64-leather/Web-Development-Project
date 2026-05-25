@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Enquiry</title>
 </head>
 <body>
-    <header class="site-header">
+     <header class="site-header">
         <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
         
         <div class="logo">
@@ -15,64 +16,61 @@
         </div>
 
         <!--Nav contents to the far right of the screen-->
-        <div class="main-nav">
-            <nav>
-                <a href="#" title="Home page">Home</a> 
+        <div>
+            <nav class="main-nav">
+                <a href="index.html" title="Home page">Home</a> 
                 <a href="About_Us.html" title="About Us page">About Us</a> 
                 <a href="Contact.html" title="Contact page">Contact</a> 
-                <a href="Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="#" title="Enquiry page">Enquiry</a> 
                 <a href="Products.html" title="Products page">Products</a>   
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <div>
-                <h2>Frequently Asked Questions</h2>
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
 
-                <details>
-                    <summary>How do I protect my account?</summary>
-                    <p>Use a strong password and enable two step verification</p>
-                </details>
+            <details class="faq-item">
+                <summary>How do I protect my account?</summary>
+                <p>Use a strong password and enable two step verification</p>
+            </details>
 
-                <details>
-                    <summary>How to publish my game on Terrain?</summary>
-                    <p>Fill out our enquiry page and we will contact you via email</p>
-                </details>
+            <details class="faq-item">
+                <summary>How to publish my game on Terrain?</summary>
+                <p>Fill out our enquiry page and we will contact you via email</p>
+            </details>
 
-                <details>
-                    <summary>How do I contact support?</summary>
-                    <p>Head over to our Contact page and fill out your details</p>
-                </details>
-            </div>
+            <details class="faq-item">
+                <summary>How do I contact support?</summary>
+                <p>Head over to our Contact page and fill out your details</p>
+            </details>
         </section>
 
-        <section>
-            <div>
-                <h2>Still have questions?</h2>
-                <p>Fill out the form below and we'll get back to you</p>
-                <form>
-                    <select>
-                        <div>
-                            <option value="">Select enquiry type</option>
-                            <option value="account protection">Account Protection</option>
-                            <option value="general">General Question</option>
-                        </div>
-                        <div>
-                            <input type="text" placeholder="First Name">
-                            <input type="text" placeholder="Last Name">
-                        </div>
-                        <input type="email" placeholder="Email">
-                        <textarea type="text" placeholder="Message"></textarea>
-                        <button type="submit">Submit</button>
-                    </select>
-                </form>
-            </div>
+        <section class="enquiry-section">
+            <h2>Still have questions?</h2>
+            <p>Fill out the form below and we'll get back to you</p>
+            <form class="enquiry-form">
+
+                <select class="enquiry-select">
+                    <option value="">Select enquiry type</option>
+                    <option value="account protection">Account Protection</option>
+                    <option value="general">General Question</option>
+                </select>
+
+                <div class="name-fields">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+
+                <input type="email" placeholder="Email">
+                <textarea type="text" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy;StoreFront 2026</p>
 
     </footer>

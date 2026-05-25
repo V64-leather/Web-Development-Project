@@ -93,6 +93,16 @@ body{
 }
 
 /*HERO*/
+
+/* The " backround-size: cover " sets the image to fill the entire container */
+/* The " min-height: 500px " ensures the section is at least 500px tall */
+/* The " background-position: center " centers the image */
+/* The " display: flex " puts the items in one row */
+/* The " align-items: centers " vertically centers the items */
+/* The " justify-content: center " horizontally centers the items */
+/* The " text-align: center " centers the text */
+/* The " position: relative " is set for the overlay to move relative to it */
+
 .hero{
     background-image: url('/My Website/Images/SAMURAI\ Background.jpg');
     background-size: cover;
@@ -105,6 +115,12 @@ body{
     position: relative;
 }
 
+/* The start of the comments for " .hero::before " */
+  /* The " .hero::before " creates an invisible element before the content */
+  /* The " content: '' " is required to create the pseudo-element */
+  /* The " inset: 0 " is a shortcut that sets top, bottom, right and left to 0 */
+  /* The " background-color: rgba(0, 0, 0, 0.6 ) " darkens the image */
+/* The end of the comments for " .before::before */
 .hero::before{
     content: '';
     position: absolute;
@@ -158,7 +174,13 @@ body{
     margin-bottom: 30px;
     color: #ffffff;
 }
+.game-cards{
+    display:flex;
+    justify-content:space-around
+}
 
+/* The " flex-shrink: 0 " prevents cards from shrinking */
+/* The " flex-direction: column " stacks all the items vertically */
 .game-card{
     background-color: #1a1a1a;
     border-radius: 12px;
@@ -171,6 +193,7 @@ body{
     gap: 10px;
 }
 
+/* The " object-fit: cover " makes the images fill their area without distortion */
 .game-card img{
     width: 100%;
     height: 160px;
@@ -183,16 +206,18 @@ body{
     color: #ffffff;
 }
 
+/* The " flex-grow: 1 " allows an element to grow and take up available space and lines up the buttons */
 .game-card p{
     font-size: 0.85rem;
     color: #aaaaaa;
     flex-grow: 1;
 }
 
+/* The " cursor: pointer " changes the */
 .btn-read-more{
     background-color: #1a6fb5;
     color: white;
-    border:none;
+    border: none;
     padding: 8px 16px;
     border-radius: 6px;
     cursor: pointer;
@@ -205,6 +230,8 @@ body{
 }
 
 /*COMMUNITY HERO*/
+
+/* The " overflow: hidden " cuts off anything that extends outside the container */
 .community-hero{
     background-color: black;
     border-radius: 16px;
@@ -215,6 +242,7 @@ body{
     overflow: hidden;
 }
 
+
 .avatar-cluster img{
     width: 60px;
     height: 60px;
@@ -224,6 +252,7 @@ body{
     border: 2px solid #333;
 }
 
+/* The " img:nth-child(1-5) " selects the different the images */
 .avatar-cluster img:nth-child(1) {top: 24px; left: 60px; }
 .avatar-cluster img:nth-child(2) {top: 24px; right: 60px; }
 .avatar-cluster img:nth-child(3) {bottom: 24px; left: 60px; }
@@ -240,6 +269,7 @@ body{
     color: #aaaaaa;
     max-width: 500px;
     margin: 0 auto 28px;
+    margin-bottom: 50px;
 }
 
 .btn-community{
@@ -268,6 +298,7 @@ body{
     text-align: center;
 }
 
+/* The " display: block " makes an inline element behave like a block element so it appears on its own line */
 .stat-number{
     font-size: 2.8rem;
     font-weight: 900;
@@ -394,7 +425,7 @@ body{
     color: #aaaaaa;
     padding-left: 20px;
     border-left: 3px solid #e05c2a;
-    line-height: 1.6;
+    line-height: 1,6;
 }
 
 /*TEAM GRID*/
@@ -582,3 +613,151 @@ body{
 .contact-form button:hover{
     background-color: #155a94;
 }
+
+/* FAQ SECTION */
+.faq-section{
+    padding: 80px;
+    border-bottom: 1px solid #1f1f1f;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section h2{
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.faq-item{
+    border-bottom: 1px solid #2a2a2a;
+    padding: 20px 0;
+}
+
+.faq-item summary{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.faq-item summary::after{
+    content: '+';
+    font-size: 1.4rem;
+    color: #e05c2a;
+    transition: transform 0.2s;
+}
+
+.faq-item[open] summary::after{
+    content: '-';
+}
+
+.faq-tem p{
+    color: #aaaaaa;
+    margin-top: 14px;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+/* ENQUIRY FORM SECTION */
+.enquiry-section{
+    padding: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.enquiry-section h2{
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.enquiry-section > p{
+    color: #aaaaaa;
+    margin-bottom: 36px;
+}
+
+.enquiry-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enquiry-select{
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.enquiry-select::focus{
+    border-color: #e05c2a;
+}
+
+.enquiry-form input,
+.enquiry-form textarea{
+    width: 100%;
+    background-color: transperant;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea::focus{
+    border-bottom-color: #e05c2a;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus{
+    -webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset;
+    -webkit-text-fill-color: #ffffff;
+    caret-color: #ffffff;
+}
+
+.enquiry-form textarea{
+    min-height: 120px;
+    resize: vertical;
+    background-color:#1a1a1a;
+}
+
+.enquiry-form input{
+    background-color:#1a1a1a
+}
+.enquiry-form input::placeholder,
+.enquiry-form textarea::placeholder{
+    color: #666;
+}
+
+.enquiry-form button{
+    align-self: flex-start;
+    background-color: #1a6fb5;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.enquiry-form button:hover{
+    background-color: #155a94;
+}
+
