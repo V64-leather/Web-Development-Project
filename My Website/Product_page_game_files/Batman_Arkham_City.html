@@ -3,43 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Batman Arkham City</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+    <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
+
     <main>
-        <section>
-            <div>
-                <img src="/My Website/Images/Arkham City( Discounted Games ).jpg" alt="Batman Arkham City" width="300">
+        <section class="game-profile-hero">
+            <div class="game-cover">
+                <img src="/My Website/Images/Arkham City( Discounted Games ).jpg" alt="Batman Arkham City">
             </div>
 
-            <div>
-                <h2>Batman Arkham City</h2>
-                <p>Developer: Rocksteady Studios</p>
-                <p>Publisher: WB Games</p>
-                <p>Released: 7 Sep 2012</p>
-                <p>Batman: Arkham City builds upon the intense, atmospheric foundation of<br>
-                   Batman: Arkham Asylum, sending players flying through the expansive<br> 
-                   Arkham City - five times larger than the game world in Batman: Arkham Asylum - the<br>
-                   new maximum security "home" for all of Gotham City's thugs, gangsters and<br>
-                   insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham <br>
-                   City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face,<br>
-                   Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to<br>
-                   genuinely experience what it feels like to be The Dark Knight delivering justice on<br>
+            <div class="game-details">
+                <h1>Batman Arkham City</h1>
+                <ul class="game-meta">
+                    <li><span>Developer</span> Rocksteady Studios</li>
+                    <li><span>Publisher</span> WB Games</li>
+                    <li><span>Released</span> 7 Sep 2012</li>
+                </ul>
+                <p class="game-description">Batman: Arkham City builds upon the intense, atmospheric foundation of
+                   Batman: Arkham Asylum, sending players flying through the expansive 
+                   Arkham City - five times larger than the game world in Batman: Arkham Asylum - the
+                   new maximum security "home" for all of Gotham City's thugs, gangsters and
+                   insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham 
+                   City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face,
+                   Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to
+                   genuinely experience what it feels like to be The Dark Knight delivering justice on
                    the streets of Gotham City.
                 </p>
+                <div>
+                    <p class="game-price">R 219.00</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper"> 
                 <iframe width="1051" height="591" src="https://www.youtube.com/embed/MlX--IPxTRU" 
                 title="Batman: Arkham City Launch Trailer" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -47,27 +68,22 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Batman Arkham City</h2>
-                <p>R 219.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   OS *: Windows XP, Vista, 7<br>
-                   PROCESSOR: Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+<br>
-                   MEMORY: 2GB RAM<br>
-                   HARD DISK SPACE: 17 GB free hard drive space<br>
-                   VIDEO CARD: ATI 3850HD 512 MB or NVIDIA GeForce 8800 GT 512MB<br>
-                   DIRECTX®: 9.0c
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Requirements</h2>
+               <ul>
+                   <li><span>OS</span>Windows XP, Vista, 7</li>
+                   <li><span>PROCESSOR</span>Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+</li>
+                   <li><span>MEMORY</span>2GB RAM</li>
+                   <li><span>HARD DISK SPACE</span>17 GB free hard drive space</li>
+                   <li>VIDEO CARD: ATI 3850HD 512 MB or NVIDIA GeForce 8800 GT 512MB</li>
+                   <li><span>DIRECTX®</span> 9.0c</li>
+               </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
+
 </body>
 </html>

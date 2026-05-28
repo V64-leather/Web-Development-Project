@@ -3,36 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Tomb Raider(2013)</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+    <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="game-profile-hero">
+            <div class="game-cover">
                 <img src="/My Website/Images/Tomb Raider 2013( Discounted Games ).jpg" alt="Tomb Raider(2013)" width="300">
             </div>
 
-            <div>
-                <h2>Tomb Raider</h2>
-                <p>Developer: Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Nixxes</p>
-                <p>Publisher: Crystal Dynamics, Feral Interactive (Mac)</p>
-                <p>Released: 05 Mar 2013</p>
-                <p>Tomb Raider explores the intense origin story of Lara Croft<br>
+            <div class="game-details">
+                <h1>Tomb Raider</h1>
+                <ul class="game-meta">
+                    <li>Developer: Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Nixxes</li>
+                    <li>Publisher: Crystal Dynamics, Feral Interactive (Mac)</li>
+                    <li>Released: 05 Mar 2013</li>
+                </ul>
+                <p class="game-description">Tomb Raider explores the intense origin story of Lara Croft<br>
                    and her ascent from a young woman to a hardened survivor.<br>
                 </p>
+                <div class="game-purchase">
+                    <h2>Buy Tomb Raider(2013)</h2>
+                    <p class="price">R 279.00 </p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="949" height="534" src="https://www.youtube.com/embed/M4SG6DfVvLs" 
                 title="Tomb Raider (2013) - Official Game Trailer" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -40,28 +61,20 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Tomb Raider(2013)</h2>
-                <p>R 279.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:
-                   OS *:Windows Vista, Windows 7 or Windows 8
-                   PROCESSOR:Quad core CPU: AMD Phenom II X4 955, Intel Core i5-750
-                   MEMORY:4 GB RAM
-                   GRAPHICS:DirectX 11 graphics card with 1GB Video RAM: AMD Radeon HD 5870, nVidia GTX 480
-                   DIRECTX®:11
-                   HARD DRIVE:12 GB HD space
-                   OTHER REQUIREMENTS:Broadband Internet connection
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+            <li><span>OS</span>Windows Vista, Windows 7 or Windows 8</li>
+            <li><span>PROCESSOR</span>Quad core CPU: AMD Phenom II X4 955, Intel Core i5-750</li>
+            <li><span>MEMORY</span>4 GB RAM</li>
+            <li><span>GRAPHICS</span>DirectX 11 graphics card with 1GB Video RAM: AMD Radeon HD 5870, nVidia GTX 480</li>
+            <li><span>DIRECTX®</span>11</li>
+            <li><span>HARD DRIVE</span>12 GB HD space</li>
+            <li><span>OTHER REQUIREMENTS</span>Broadband Internet connection</li>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
 </body>
 </html>

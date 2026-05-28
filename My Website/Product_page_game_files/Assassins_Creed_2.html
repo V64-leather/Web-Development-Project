@@ -3,33 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Assassins Creed 2</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+     <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
-                <img src="/My Website/Images/Assassins creed 2.JPG" alt="Assassins Creed 2" width="300">
+        <section class="game-profile-hero">
+            <div class="game-cover">
+                <img src="/My Website/Images/Assassins creed 2.JPG" alt="Assassins Creed 2">
             </div>
 
-            <div>
-                <h2>Assassins Creed 2</h2>
-                <p>Developer: Ubisoft Montreal</p>
-                <p>Publisher: Ubisoft</p>
-                <p>Released: 5 Mar 2010</p>
-                <p>An epic story of family, vengeance and conspiracy set in the pristine,<br>
-                   yet brutal, backdrop of a Renaissance Italy.New low price!<br>
+            <div class="game-details">
+                <h1>Assassins Creed 2</h1>
+                <ul>
+                    <li><span>Developer</span> Ubisoft Montreal</li>
+                    <li><span>Publisher</span> Ubisoft</li>
+                    <li><span>Released</span> 5 Mar 2010</li>
+                </ul>
+                <p class="game-description">An epic story of family, vengeance and conspiracy set in the pristine,
+                   yet brutal, backdrop of a Renaissance Italy.New low price!
                 </p>
+                <div class="game-purchase">
+                    <p class="game-price">R 169.00</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="949" height="534" src="https://www.youtube.com/embed/_xkCPNECud8"
                 title="Assassin&#39;s Creed 2 E3 Trailer" frameborder="0" allow="accelerometer; autoplay;
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
@@ -37,29 +60,25 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Assassins Creed 2</h2>
-                <p>R 169.00</p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   OS: Windows® XP (32-64 bits) /Windows Vista®(32-64 bits)<br>
-                   PROCESSOR: Intel Core® 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better<br>
-                   MEMORY: 1.5 GB Windows® XP / 2 GB Windows Vista® - Windows 7®<br>
-                   GRAPHICS: GeForce 8800 GT or ATI Radeon HD 4700 or better<br>
-                   DIRECTX®: DirectX 9.0<br>
-                   HARD DRIVE: 8 GB free space<br>
-                   SOUND: 5.1 sound card<br>
-                   SUPPORTED PERIPHERALS: Keyboard, mouse, joystick optional (Xbox 360® Controller for Windows recommended)
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+               <ul>
+                   <li><span>OS</span>Windows® XP (32-64 bits) /Windows Vista®(32-64 bits)</li>
+                   <li><span>PROCESSOR</span> Intel Core® 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better</li>
+                   <li><span>MEMORY</span> 1.5 GB Windows® XP / 2 GB Windows Vista® - Windows 7®</li>
+                   <li><span>GRAPHICS</span> GeForce 8800 GT or ATI Radeon HD 4700 or better</li>
+                   <li><span>DIRECTX®</span>DirectX 9.0</li>
+                   <li><span>HARD DRIVE</span> 8 GB free space</li>
+                   <li><span>SOUND</span> 5.1 sound card</li>
+                   <li><span>SUPPORTED PERIPHERALS</span>Keyboard, mouse, joystick optional (Xbox 360® Controller for Windows recommended)</li>
+               </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+
+    </footer>
+
 </body>
 </html>

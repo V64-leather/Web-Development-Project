@@ -3,37 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Schedule 1</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+   <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section classs="game-profile-hero">
+            <div class="game-cover">
                 <img src="/My Website/Images/Schedule 1( favourite games ).jpg" alt="Schedule 1" width="300">
             </div>
 
-            <div>
-                <h2>Schedule 1</h2>
-                <p>Developer: TVGS</p>
-                <p>Publisher: TVGS</p>
-                <p>Released: 24 Mar 2025</p>
-                <p>From small-time dope pusher to kingpin - manufacture and distribute a range<br>
-                   of drugs throughout the grungy city of Hyland Point. Expand your empire with<br>
-                   properties, businesses, employees and more.<br>
+            <div class="game-details">
+                <h1>Schedule 1</h1>
+                <ul class="game-meta">
+                    <li>Developer: TVGS</li>
+                    <li>Publisher: TVGS</li>
+                    <li>Released: 24 Mar 2025</li>
+                </ul>
+                <p class="game-description">From small-time dope pusher to kingpin - manufacture and distribute a range
+                   of drugs throughout the grungy city of Hyland Point. Expand your empire with
+                   properties, businesses, employees and more.
                 </p>
+                <div class="game-purchase">
+                    <h2>Buy Schedule 1</h2>
+                    <p class="price">R 185.00 </p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="949" height="534" src="https://www.youtube.com/embed/fR1-GXVPbuo" 
                 title="Schedule I Reveal Trailer" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -41,27 +62,21 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Schedule 1</h2>
-                <p>R 185.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   Requires a 64-bit processor and operating system<br>
-                   OS: Windows 10 (64-bit)<br>
-                   PROCESSOR: 3.5GHz 6-Core or similar<br>
-                   MEMORY: 16 GB RAM<br>
-                   GRAPHICS: GeForce RTX 3060 or Radeon RX 6700<br>
-                   STORAGE: 8 GB available space
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+            <ul>
+                <li>Requires a 64-bit processor and operating system</li>
+                <li><span>OS</span>Windows 10 (64-bit)</li>
+                <li><span>PROCESSOR</span>3.5GHz 6-Core or similar</li>
+                <li><span>MEMORY</span>16 GB RAM</li>
+                <li><span>GRAPHICS</span>GeForce RTX 3060 or Radeon RX 6700</li>
+                <li><span>STORAGE</span>8 GB available space</li>
+            </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
 </body>
 </html>

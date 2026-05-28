@@ -3,39 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Alan Wake</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+    <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="game-profile-hero">
+            <div class="game-cover">
                 <img src="/My Website/Images/Paradise Killer.jpg" alt="Paradise Killer" width="300">
             </div>
 
-            <div>
-                <h2>Paradise Killer</h2>
-                <p>Developer: Kaizen Game Works</p>
-                <p>Publisher: Fellow Traveller</p>
-                <p>Released: 04 Sep 2020</p>
-                <p>Paradise Island, a world outside reality.<br> 
-                   There has been a murder that only "investigation freak" Lady Love Dies can solve.<br>
-                   Gather evidence and interrogate suspects in this open world adventure.<br>
-                   You can accuse anyone, but you will have to prove your case in trial.<br> 
+            <div class="game-details">
+                <h1>Paradise Killer</h1>
+                <ul class="game-meta">
+                    <li><span>Developer</span>Kaizen Game Works</li>
+                    <li><span>Publisher</span>Fellow Traveller</li>
+                    <li><span>Released</span>04 Sep 2020</li>
+                </ul>
+                <p class="game-description">Paradise Island, a world outside reality. 
+                   There has been a murder that only "investigation freak" Lady Love Dies can solve.
+                   Gather evidence and interrogate suspects in this open world adventure.
+                   You can accuse anyone, but you will have to prove your case in trial. 
                    It is up to you to decide who is guilty.
                 </p>
+                <div class="game-purchase">
+                    <h2>Buy Paradise Killer</h2>
+                    <p class="price">R 185.00 </p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="949" height="534" src="https://www.youtube.com/embed/fSprpzYzHKg" 
                 title="Paradise Killer - Official Trailer" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -43,28 +64,22 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Paradise Killer</h2>
-                <p>R 185.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   Requires a 64-bit processor and operating system<br>
-                   OS: Windows 10 (64 bit)<br>
-                   PROCESSOR: 3Ghz Quad Core<br>
-                   MEMORY: 16 GB RAM<br>
-                   GRAPHICS: 1060 (Direct X 11 or above required)<br>
-                   DIRECTX: Version 11<br>
-                   STORAGE: 6 GB available space
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+            <ul>
+                <li>Requires a 64-bit processor and operating system</li>
+                <li><span>OS</span>: Windows 10 (64 bit)</li>
+                <li><span>PROCESSOR</span>3Ghz Quad Core</li>
+                <li><span>MEMORY</span>16 GB RAM</li>
+                <li><span>GRAPHICS</span>1060 (Direct X 11 or above required)</li>
+                <li><span>DIRECTX</span>Version 11</li>
+                <li><span>STORAGE</span>6 GB available space</li>
+            </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
 </body>
 </html>

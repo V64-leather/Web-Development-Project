@@ -1000,4 +1000,151 @@ input:-webkit-autofill:focus{
     color: #e05c2a;
 }
 
+.game-profile-hero{
+    display: flex;
+    gap: 40px;
+    padding: 60px 80px;
+    align-items: flex-start;
+    border-bottom: 1px solid #1f1f1f;
+}
 
+.game-cover img{
+    width: 320px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.game-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game-details h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.game-meta{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.game-meta li{
+    color: #aaaaaa;
+    font-size: 0.95rem;
+}
+
+.game-meta li span{
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 10px;
+    min-width: 90px;
+    display: inline-block;
+}
+
+.game-description{
+    color: #aaaaaa;
+    line-height: 1.8;
+    max-width: 600px;
+    font-size: 0.95rem;
+}
+
+.game-purchase{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.game-price{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.btn-buy{
+    background-color: #1a6fb5;
+    color: white;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-buy:hover{
+    background-color: #155a94;
+}
+
+/* TRAILER */
+.game-trailer{
+    padding: 60px 80px;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.game-trailer h2{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.trailer-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.trailer-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* PC SPECS */
+.game-specs{
+    padding: 60px 80px;
+}
+
+.game-specs h2{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.specs-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 700px;
+}
+
+.specs-list li{
+    color: #aaaaaa;
+    font-size: 0.95rem;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.specs-list li span{
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 16px;
+    min-width: 100px;
+    display: inline-block;
+}

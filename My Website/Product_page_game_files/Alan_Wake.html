@@ -3,37 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Alan Wake</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+    <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
+
     <main>
-        <section>
-            <div>
-                <img src="/My Website/Images/Alan wake.jpg" alt="Alan Wake" width="300">
+        <section class="game-profile-hero">
+            <div class="game-cover">
+                <img src="/My Website/Images/Alan wake.jpg" alt="Alan Wake">
             </div>
 
-            <div>
-                <h2>Alan Wake</h2>
-                <p>Developer: Remedy Entertainment</p>
-                <p>Publisher: Remedy Entertainment</p>
-                <p>Released: 16 Feb 2012</p>
-                <p>A Dark Presence stalks the small town of Bright Falls,<br>
-                    pushing Alan Wake to the brink of sanity in his fight<br>
+            <div class="game-details">
+                <h1>Alan Wake</h1>
+                <ul>
+                    <li><span>Developer</span> Remedy Entertainment</li>
+                    <li><span>Publisher</span> Remedy Entertainment</li>
+                    <li><span>Released </span>16 Feb 2012</li>
+                </ul>
+                <p class="game-description">A Dark Presence stalks the small town of Bright Falls,
+                    pushing Alan Wake to the brink of sanity in his fight
                     to unravel the mystery and save his love.
                 </p>
+                <div class="game-purchase">
+                    <p class="game-price">R 145.00</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="949" height="534" src="https://www.youtube.com/embed/sSB4QcQMm6E" 
                 title="Alan Wake - Official Launch Trailer | HD" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -41,28 +62,24 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Alan Wake</h2>
-                <p>R 145.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   OS *: Windows 7<br>
-                   PROCESSOR: Quad Core 2.66GHz Intel or 3.2GHz AMD<br>
-                   MEMORY: 4 GB RAM<br>
-                   GRAPHICS: DirectX 10 compatible or later with 1GB RAM<br>
-                   DIRECTX®: 10<br>
-                   HARD DRIVE: 8 GB HD space<br>
-                   SOUND: DirectX 9.0c compatible
+        <section class="game-specs">
+            <h2>PC Requirements</h2>
+            <ul class="spec-list">
+                   <li><span>OS</span> Windows 7</li>
+                   <li><span>PROCESSOR</span>Quad Core 2.66GHz Intel or 3.2GHz AMD</li>
+                   <li><span>MEMORY</span>4 GB RAM</li>
+                   <li><span>GRAPHICS</span> DirectX 10 compatible or later with 1GB RAM</li>
+                   <li><span>DIRECTX®</span>10</li>
+                   <li><span>HARD DRIVE</span>: 8 GB HD space</li>
+                   <li><span>SOUND</span> DirectX 9.0c compatible</li>
                 </p>
-            </div>
+            </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+
+    </footer>
 </body>
 </html>

@@ -3,66 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Hitman Absolution</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+    <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
+
     
     <main>
-        <section>
-            <div>
+        <section class="game-profile-hero">
+            <div class="game-cover">
                 <img src="/My Website/Images/Hitman Absolution.jpg" alt="Hitman Absolution" width="300">
                 
             </div>
 
-            <div>
-                <h2>Hitman Absolution</h2>
-                <p>Developer: Io-Interactive A/S</p>
-                <p>Publisher: Io-Interactive A/S</p>
-                <p>Released: 20 Nov 2012</p>
-                <p>The original assassin is back!<br> 
-                   Betrayed by the Agency and hunted by the police, Agent 47 finds himself<br>
-                   pursuing redemption in a corrupt and twisted world.<br>
+            <div class="game-details">
+                <h1>Hitman Absolution</h1>
+                <ul class="game-meta">
+                    <li><span>Developer</span>Io-Interactive A/S</li>
+                    <li><span>Publisher</span>Io-Interactive A/S</li>
+                    <li><span>Released</span>20 Nov 2012</li>
+                </ul>
+                <p class="game-description">The original assassin is back! 
+                   Betrayed by the Agency and hunted by the police, Agent 47 finds himself
+                   pursuing redemption in a corrupt and twisted world.
                 </p>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-                <div>
-                    <iframe width="949" height="534" src="https://www.youtube.com/embed/COLK9pK3GGQ"
-                    title="Hitman: Absolution - Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen></iframe>
+                <div class="game-purchase">
+                   <h2>Buy Hitman Absolution</h2>
+                   <p>R 219.00</p>
+                   <button class="btn-buy">Buy Now</button>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy Hitman Absolution</h2>
-                <p>R 219.00</p>
-                <button>Buy Now</button>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
+                <iframe width="949" height="534" src="https://www.youtube.com/embed/COLK9pK3GGQ"
+                title="Hitman: Absolution - Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   OS: Windows 7 64-bit<br>
-                   PROCESSOR: Intel Core i7 or AMD Athlon II X4<br>
-                   HARD DRIVE SPACE: 24GB<br>
-                   MEMORY: 4 GB RAM<br>
-                   VIDEO CARD: NVIDIA GeForce GTX 260 or ATI Radeon HD 5770<br>
-                   DIRECTX®: 11
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+               <ul>
+                   <li>OS: Windows 7 64-bit</li>
+                   <li>PROCESSOR: Intel Core i7 or AMD Athlon II X4</li>
+                   <li>HARD DRIVE SPACE: 24GB</li>
+                   <li>MEMORY: 4 GB RAM</li>
+                   <li>VIDEO CARD: NVIDIA GeForce GTX 260 or ATI Radeon HD 5770</li>
+                   <li>DIRECTX®: 11</li>
+               </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
     
 </body>
 </html>

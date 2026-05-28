@@ -3,34 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>RV There Yet</title>
 </head>
 <body>
-    <header>
-        <a href="/My Website/Products.html" title="Back" alt="Back">Back</a><br>
+   <header class="site-header">
+        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
+        
+        <div class="logo">
+            <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
+            <h1> STELLAR</h1>
+        </div>
+
+        <!--Nav contents to the far right of the screen-->
+        <div>
+            <nav class="main-nav">
+                <a href="/My Website/index.html" title="Home page">Home</a> 
+                <a href="/My Website/About_Us.html" title="About Us page">About Us</a> 
+                <a href="/My Website/Contact.html" title="Contact page">Contact</a> 
+                <a href="/My Website/Enquiry.html" title="Enquiry page">Enquiry</a> 
+                <a href="/My Website/Products.html" title="Products page">Products</a>   
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="game-profile-hero">
+            <div class="game-cover">
                 <img src="/My Website/Images/RV There Yet( newer game ).jpg" alt="RV There Yet" width="300">
             </div>
 
-            <div>
+            <div class="game-meta">
                 <h2>RV There Yet</h2>
-                <p>Developer: Nuggets Entertainment</p>
-                <p>Publisher: Nuggets Entertainment</p>
-                <p>Released: 21 Oct 2025</p>
-                <p>A co-op adventure about driving your Recreational Vehicle home.</p>
+                <ul>
+                    <li><span>Developer</span>Nuggets Entertainment</li>
+                    <li><span>Publisher</span>Nuggets Entertainment</li>
+                    <li><span>Released</span>21 Oct 2025</li>
+                </ul>
+                <p class="game-description">A co-op adventure about driving your Recreational Vehicle home.</p>
+                <div>
+                    <h2>Buy RV There Yet</h2>
+                    <p class="price">R 82.00 </p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Trailer Video</h2>
-            </div>
-
-            <div>
+        <section class="game-trailer">
+            <h2>Trailer Video</h2>
+            <div class="trailer-wrapper">
                 <iframe width="1051" height="591" src="https://www.youtube.com/embed/H7mXFwVNX6Y" 
                 title="RV There Yet? Announcement Trailer" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -38,31 +59,25 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Buy RV There Yet</h2>
-                <p>R 82.00 </p>
-                <button>Buy Now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>PC Specs</h2>
-                <p>RECOMMENDED:<br>
-                   Requires a 64-bit processor and operating system<br>
-                   OS: Windows 11<br>
-                   PROCESSOR: Ryzen 9 3900XT or equivalent<br>
-                   MEMORY: 12 GB RAM<br>
-                   GRAPHICS: NVidia 3060 or equivalent<br>
-                   DIRECTX: Version 12<br>
-                   NETWORK: Broadband Internet connection<br>
-                   STORAGE: 3200 MB available space<br>
-                   SOUND CARD: One with a microphone jack in<br>
-                   ADDITIONAL NOTES: Microphone to guide your friends
-                </p>
-            </div>
+        <section class="game-specs">
+            <h2>PC Specs</h2>
+            <ul>
+                <li>Requires a 64-bit processor and operating system</li>
+                <li><span>OS</span>Windows 11</li>
+                <li><span>PROCESSOR</span>Ryzen 9 3900XT or equivalent</li>
+                <li><span>MEMORY</span>12 GB RAM</li>
+                <li><span>GRAPHICS</span>NVidia 3060 or equivalent</li>
+                <li><span>DIRECTX</span>Version 12</li>
+                <li><span>NETWORK</span>Broadband Internet connection</li>
+                <li><span>STORAGE</span>3200 MB available space</li>
+                <li><span>SOUND CARD</span>One with a microphone jack in</li>
+                <li><span>ADDITIONAL NOTES</span>Microphone to guide your friends</li>
+            </ul>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy;StoreFront 2026</p>
+    </footer>
 </body>
 </html>
