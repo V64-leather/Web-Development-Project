@@ -975,7 +975,8 @@ input:-webkit-autofill:focus{
     transition: background 0.3s;
 }
 
-.category-card:hover .category-overlay{
+.category-card:hover,
+.category-overlay{
     background: linear-gradient(to top, rgba(224,92,42,0.85), rgba(0,0,0,0.2));
 }
 
@@ -1147,4 +1148,248 @@ input:-webkit-autofill:focus{
     margin-right: 16px;
     min-width: 100px;
     display: inline-block;
+}
+
+/* TABLET (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+    .about-hero-text {
+        padding: 60px 40px 60px 300px;
+    }
+
+    .about-hero-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .game-profile-hero {
+        padding: 40px;
+    }
+
+    .contact-body {
+        padding: 60px 40px;
+    }
+
+    .faq-section,
+    .enquiry-section {
+        padding: 60px 40px;
+    }
+
+    .about-section {
+        padding: 40px;
+    }
+}
+
+/* MOBILE (max-width: 768px) */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 12px;
+    }
+
+    .main-nav {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .main-nav a {
+        font-size: 0.85rem;
+    }
+
+    /* HERO */
+    .hero {
+        min-height: 350px;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
+
+    /* ABOUT HERO */
+    .about-hero {
+        min-height: 400px;
+    }
+
+    .about-hero-text {
+        padding: 40px 20px;
+    }
+
+    .about-hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .char-main {
+        height: 70%;
+        opacity: 0.4;
+    }
+
+    .char-bg {
+        opacity: 0.15;
+    }
+
+    /* GAME SECTIONS */
+    .game-section {
+        padding: 40px 20px;
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* COMMUNITY */
+    .community-hero {
+        margin: 20px;
+        padding: 80px 20px;
+    }
+
+    .avatar-cluster img:nth-child(3),
+    .avatar-cluster img:nth-child(4),
+    .avatar-cluster img:nth-child(5) {
+        display: none;
+    }
+
+    .community-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .community-stats {
+        margin: 0 20px 20px;
+        padding: 30px 20px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    /* CONTACT */
+    .contact-hero {
+        height: 280px;
+    }
+
+    .contact-hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .contact-body {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .name-fields {
+        flex-direction: column;
+    }
+
+    /* ENQUIRY */
+    .faq-section,
+    .enquiry-section {
+        padding: 40px 20px;
+    }
+
+    /* STORE */
+    .store-header {
+        padding: 30px 20px 16px;
+    }
+
+    .store-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+
+    .layout-toggle {
+        margin-left: 0;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* GAME PROFILE */
+    .game-profile-hero {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .game-cover img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .game-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .game-trailer {
+        padding: 40px 20px;
+    }
+
+    .game-specs {
+        padding: 40px 20px;
+    }
+
+    /* TEAM */
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* ABOUT SECTIONS */
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    /* FOOTER */
+    .site-footer {
+        padding: 20px;
+    }
+}
+
+/*  SMALL MOBILE (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .hero-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-details h1 {
+        font-size: 1.5rem;
+    }
+
+    .game-price {
+        font-size: 1.4rem;
+    }
 }
