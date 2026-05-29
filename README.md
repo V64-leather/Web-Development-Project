@@ -126,3 +126,60 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 
 ## Sitemap
 <img width="831" height="389" alt="Screenshot 2026-05-29 225622" src="https://github.com/user-attachments/assets/c3d621bf-6afe-453c-bc77-cdbb21377588" />
+
+## Changelog History
+
+**Commits on May 29, 2026**
+
+- Initial README.md creation with project details
+- refactor: enhance game purchase sections and improve category browsing layout
+
+**Commits on May 28, 2026**
+
+- Refactor product pages for improved layout and styling
+
+**Commits on May 27, 2026**
+
+- Refactor HTML structure and improve accessibility across multiple pages
+
+**Commits on May 25, 2026**
+
+- I added class attributes onto my enquiry html file and changed my layout by adding css code.
+
+**Commits on May 22, 2026**
+
+- feat: add contact page layout and styles for improved user interaction
+- refactor: clean up empty code change entries for better maintainability
+
+**Commits on May 21, 2026**
+
+- Update stylesheet link in About Us and index pages to use absolute path
+- Add new CSS file for website styling, including layout, header, hero section, game sections, community features, and footer
+- Refactor code structure for improved readability and maintainability
+
+**Commits on May 20, 2026**
+
+- Add styles for website layout, header, hero section, game sections, community features, and footer
+
+**Commits on May 7, 2026**
+
+- Update PC specs formatting for Hollow Knight; add new product pages for Schedule 1 and Tomb Raider (2013); enhance search input placeholder in Products page
+
+**Commits on May 4, 2026**
+
+- Add product pages for Batman: Arkham City, Hades 1, Hollow Knight, LA Noire, Lethal Company, Peak, and RV There Yet with details, trailers, and PC specs
+- Add enquiry page with FAQ and contact form; update product pages for Alan Wake and Paradise Killer; add new game files for Batman: Arkham City, Hades 1, Hollow Knight, LA Noire, Schedule 1, and Tom…
+
+**Commits on May 3, 2026**
+
+- Add new product pages for games
+
+**Commits on Apr 29, 2026**
+
+- Added a community section to the homepage and made some additions to the code. Added to the about us page, by making use of images, text, links and a footer section. Added to the contact page by ma…
+
+**Commits on Apr 24, 2026**
+
+- Added Popular Games and Discounted Games sections with buttons and layout updates.
+- Improved homepage structure
+-  Added images and improved visual layout
