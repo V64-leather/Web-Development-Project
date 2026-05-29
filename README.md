@@ -129,18 +129,36 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 
 ## Changelog History
 
+**Commits on May 30, 2026**
+- Add changelog history to README.md
+- Added a changelog section to document project history and updates.
+
 **Commits on May 29, 2026**
 
-- Initial README.md creation with project details
+-Initial README.md creation with project details
+- Added comprehensive project details including title, student information, project overview, goals, strengths, weaknesses, features, and sitemap.
 - refactor: enhance game purchase sections and improve category browsing layout
 
 **Commits on May 28, 2026**
 
 - Refactor product pages for improved layout and styling
+- Added a site header with logo and navigation links to all product pages.
+- Updated game details sections to use lists for better structure.
+- Enhanced game descriptions and purchase sections for clarity.
+- Improved trailer video sections with consistent formatting.
+- Standardized PC specs presentation across all game pages.
+- Included footer with copyright information on all pages.
 
 **Commits on May 27, 2026**
 
 - Refactor HTML structure and improve accessibility across multiple pages
+- Updated image tags in Enquiry.html, Products.html, and index.html to remove fixed width attributes for better responsiveness.
+- Corrected viewport meta tag in Products.html to ensure proper scaling on mobile devices.
+- Enhanced the Products.html layout with a new search bar and filter buttons for improved user experience.
+- Reorganized game listings into a grid format with additional details such as prices and save buttons.
+- Created new category pages for action, adventure, horror, indie, and RPG games with consistent layout and navigation.
+- Added footer to all new category pages for uniformity.
+- Fixed various typos and inconsistencies in HTML attributes and structure.
 
 **Commits on May 25, 2026**
 
@@ -168,18 +186,43 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 **Commits on May 4, 2026**
 
 - Add product pages for Batman: Arkham City, Hades 1, Hollow Knight, LA Noire, Lethal Company, Peak, and RV There Yet with details, trailers, and PC specs
-- Add enquiry page with FAQ and contact form; update product pages for Alan Wake and Paradise Killer; add new game files for Batman: Arkham City, Hades 1, Hollow Knight, LA Noire, Schedule 1, and Tom…
+- Add enquiry page with FAQ and contact form; update product pages for Alan Wake and Paradise Killer; add new game files for Batman: Arkham City, Hades 1, Hollow Knight, LA Noire, Schedule 1, and Tomb Raider 2013
 
 **Commits on May 3, 2026**
 
 - Add new product pages for games
+- Created Alan Wake product page.
+- Created Assassins Creed 2 product page with details, trailer, pricing, and PC specs.
+- Created Hitman Absolution product page with details, trailer, pricing, and PC specs.
+- Created a placeholder for Paradise Killer product page.
 
 **Commits on Apr 29, 2026**
 
-- Added a community section to the homepage and made some additions to the code. Added to the about us page, by making use of images, text, links and a footer section. Added to the contact page by ma…
+- Added a community section to the homepage and made some additions to the code.
+- Added to the about us page, by making use of images, text, links and a footer section.
+- Added to the contact page by making use of forms, inputs, images and textarea.
+- Aswell as adding a footer section
 
 **Commits on Apr 24, 2026**
 
 - Added Popular Games and Discounted Games sections with buttons and layout updates.
 - Improved homepage structure
--  Added images and improved visual layout
+- Added images and improved visual layout
+- 
+**Commits on Apr 24, 2026**
+
+- Added Popular Games and Discounted Games sections with buttons and layout updates.
+- Improved homepage structure
+- Added images and improved visual layout
+
+## References
+
+Dribble (2025) HL – Bold Minimalist Fashion Jewelry Website Design – About Page. Available at: https://dribbble.com/shots/25833454-HL-Bold-Minimalist-Fashion-Jewelry-Website-Design-About-Page (Accessed: 29 May 2026). 
+
+ Wix Blog (2025) 15 Contact Us Page Examples: Best Practices and Creative Ideas. Available at: https://www.wix.com/blog/beautiful-contact-pages (Accessed: 29 May 2026).  
+
+Colorlib (2025) 17 Best Gaming Website Templates (HTML & WordPress). Available at: https://colorlib.com/wp/gaming-html-website-templates/ (Accessed: 29 May 2026). 
+
+Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at: https://saaspo.com/section-type/saas-community-section-examples (Accessed: 29 May 2026) 
+
+ 
