@@ -239,11 +239,12 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 - Tablet view:
   
-<img width="1025" height="3894" alt="Tablet homepage" src="https://github.com/user-attachments/assets/d078ffe7-c93d-4b99-b65a-66251fa37d18" />
+<img width="1025" height="6824" alt="Tablet Homepage(2)" src="https://github.com/user-attachments/assets/587083d1-58c6-49e3-86c2-dbd036077063" />
+
 
 - Phone view:
   
-<img width="1001" height="3386" alt="Phone homepage" src="https://github.com/user-attachments/assets/9cdfe11f-cdbd-46a2-8dfc-486697f56da6" />
+<img width="469" height="6465" alt="Phone Homepage(2)" src="https://github.com/user-attachments/assets/a9556a25-cb13-494e-9446-45cbbdeedb76" />
 
 
 **About us page**
@@ -254,12 +255,11 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 - Tablet view:
   
-<img width="1025" height="3615" alt="Tablet About us page" src="https://github.com/user-attachments/assets/0ca258a4-8965-4b43-85f3-208184fd12ca" />
+<img width="1025" height="3950" alt="Tablet About us(2)" src="https://github.com/user-attachments/assets/fa8c4588-19e7-4d18-977f-155591d7c310" />
 
 - Phone view:
   
-<img width="538" height="4657" alt="Phone About us page" src="https://github.com/user-attachments/assets/5a311008-5518-41cf-8a3d-068a414b567b" />
-
+<img width="469" height="5349" alt="Phone About us(2)" src="https://github.com/user-attachments/assets/10bc78c6-9680-4315-a59a-51fddfca7254" />
 
 **Contact us page**
 
@@ -269,12 +269,11 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 - Tablet view:
   
-<img width="1025" height="1475" alt="Tablet Contact page" src="https://github.com/user-attachments/assets/ecd086cc-4911-493f-89cf-b78c822c5094" />
+  <img width="1025" height="1550" alt="Tablet Contact(2)" src="https://github.com/user-attachments/assets/dce9765b-69a9-4a2b-9b1e-ec5c77804c05" />
 
 - Phone view:
   
-<img width="538" height="1330" alt="Phone Contact page" src="https://github.com/user-attachments/assets/dae29f09-2ddc-42d1-861a-fe47cea76393" />
-
+<img width="469" height="1731" alt="Phone Contact(2)" src="https://github.com/user-attachments/assets/c8b7ee31-ec57-4502-a2a1-cc64de8219ce" />
 
 **Enquiry page**
 
@@ -284,12 +283,11 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 - Tablet view:
   
-<img width="1025" height="1475" alt="Tablet Enquiry page" src="https://github.com/user-attachments/assets/e7e30779-bfa5-407e-84a4-16a271e94270" />
+<img width="1025" height="1550" alt="Tablet Enquiry" src="https://github.com/user-attachments/assets/39fb62c2-d2c1-4e3e-83ca-5a807eb47492" />
 
 - Phone view:
   
-<img width="538" height="1478" alt="Phone enquiry page" src="https://github.com/user-attachments/assets/fe316cc1-2dbe-4358-b26d-806e8daf6373" />
-
+  <img width="469" height="1707" alt="Phone enquiry(2)" src="https://github.com/user-attachments/assets/0f429100-26ff-4909-82cc-c3a57b39a2d9" />
 
 **Products page**
 
@@ -299,8 +297,9 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 - Tablet view:
 
-<img width="1025" height="3080" alt="Tablet products page" src="https://github.com/user-attachments/assets/cc7b3995-405b-46fe-aed6-682c26e48601" />
+<img width="1025" height="4086" alt="Tablet products(2)" src="https://github.com/user-attachments/assets/01d7351e-4314-44c7-9220-3f6606b75f5e" />
 
 - Phone view:
 
-<img width="538" height="6997" alt="Phone products page" src="https://github.com/user-attachments/assets/3a5fae79-71e3-4de3-b6d2-05d049b619eb" />
+<img width="469" height="7216" alt="Phone products(2)" src="https://github.com/user-attachments/assets/b9c19102-3f44-462d-8a3e-8d7e1e707c6b" />
+
