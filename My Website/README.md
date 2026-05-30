@@ -233,14 +233,74 @@ Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at:
 
 **Homepage**
 
+- Desktop view:
+
+<img width="1763" height="3630" alt="Homepage(w2)" src="https://github.com/user-attachments/assets/27aa5ac4-c74c-4b35-bfdc-d76957107bfb" />
+
+- Tablet view:
+  
+<img width="1025" height="3894" alt="Tablet homepage" src="https://github.com/user-attachments/assets/d078ffe7-c93d-4b99-b65a-66251fa37d18" />
+
+- Phone view:
+  
+<img width="1001" height="3386" alt="Phone homepage" src="https://github.com/user-attachments/assets/9cdfe11f-cdbd-46a2-8dfc-486697f56da6" />
+
 
 **About us page**
+
+- Desktop view:
+  
+<img width="1763" height="3110" alt="AboutUsPage" src="https://github.com/user-attachments/assets/24884f9d-9fe8-4a8c-8a96-e25bf7cd93a9" />
+
+- Tablet view:
+  
+<img width="1025" height="3615" alt="Tablet About us page" src="https://github.com/user-attachments/assets/0ca258a4-8965-4b43-85f3-208184fd12ca" />
+
+- Phone view:
+  
+<img width="538" height="4657" alt="Phone About us page" src="https://github.com/user-attachments/assets/5a311008-5518-41cf-8a3d-068a414b567b" />
 
 
 **Contact us page**
 
+- Desktop view:
+  
+<img width="1763" height="1242" alt="ContactPage" src="https://github.com/user-attachments/assets/21ca6e79-6f85-4f03-9ff1-5abbe53b9597" />
+
+- Tablet view:
+  
+<img width="1025" height="1475" alt="Tablet Contact page" src="https://github.com/user-attachments/assets/ecd086cc-4911-493f-89cf-b78c822c5094" />
+
+- Phone view:
+  
+<img width="538" height="1330" alt="Phone Contact page" src="https://github.com/user-attachments/assets/dae29f09-2ddc-42d1-861a-fe47cea76393" />
+
 
 **Enquiry page**
 
+- Desktop view:
+  
+<img width="1763" height="1445" alt="EnquiryPage" src="https://github.com/user-attachments/assets/2fa073fc-56a8-445c-9633-beccc995dd65" />
+
+- Tablet view:
+  
+<img width="1025" height="1475" alt="Tablet Enquiry page" src="https://github.com/user-attachments/assets/e7e30779-bfa5-407e-84a4-16a271e94270" />
+
+- Phone view:
+  
+<img width="538" height="1478" alt="Phone enquiry page" src="https://github.com/user-attachments/assets/fe316cc1-2dbe-4358-b26d-806e8daf6373" />
+
 
 **Products page**
+
+- Desktop view:
+  
+<img width="1763" height="2231" alt="ProductsPage" src="https://github.com/user-attachments/assets/c30b0b9a-164f-43b2-99ca-1b79b6e905d0" />
+
+- Tablet view:
+
+<img width="1025" height="3080" alt="Tablet products page" src="https://github.com/user-attachments/assets/cc7b3995-405b-46fe-aed6-682c26e48601" />
+
+- Phone view:
+
+<img width="538" height="6997" alt="Phone products page" src="https://github.com/user-attachments/assets/3a5fae79-71e3-4de3-b6d2-05d049b619eb" />
