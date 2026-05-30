@@ -13,6 +13,7 @@ Module Code: WED5020
 ## Project Overview
 
 **Organization name:**
+
 STELLAR 
 
 **Brief History**
@@ -95,6 +96,8 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 - There is a community section on the page that has a button (named “Join Our Community”) that takes the user to the sign-up page.
 - This feature was added to entice the first-time user to sign in and create a profile on our platform 
 
+
+
 **About us page**
 
 - There are cards that describe the different departments that STELLAR consists of.
@@ -130,12 +133,13 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 ## Changelog History
 
 **Commits on May 30, 2026**
+
 - Add changelog history to README.md
 - Added a changelog section to document project history and updates.
 
 **Commits on May 29, 2026**
 
--Initial README.md creation with project details
+- Initial README.md creation with project details
 - Added comprehensive project details including title, student information, project overview, goals, strengths, weaknesses, features, and sitemap.
 - refactor: enhance game purchase sections and improve category browsing layout
 
@@ -219,10 +223,24 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 
 Dribble (2025) HL – Bold Minimalist Fashion Jewelry Website Design – About Page. Available at: https://dribbble.com/shots/25833454-HL-Bold-Minimalist-Fashion-Jewelry-Website-Design-About-Page (Accessed: 29 May 2026). 
 
- Wix Blog (2025) 15 Contact Us Page Examples: Best Practices and Creative Ideas. Available at: https://www.wix.com/blog/beautiful-contact-pages (Accessed: 29 May 2026).  
+Wix Blog (2025) 15 Contact Us Page Examples: Best Practices and Creative Ideas. Available at: https://www.wix.com/blog/beautiful-contact-pages (Accessed: 29 May 2026).  
 
 Colorlib (2025) 17 Best Gaming Website Templates (HTML & WordPress). Available at: https://colorlib.com/wp/gaming-html-website-templates/ (Accessed: 29 May 2026). 
 
 Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at: https://saaspo.com/section-type/saas-community-section-examples (Accessed: 29 May 2026) 
 
- 
+## Website Screenshots
+
+**Homepage**
+
+
+**About us page**
+
+
+**Contact us page**
+
+
+**Enquiry page**
+
+
+**Products page**
