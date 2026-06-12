@@ -52,15 +52,16 @@
                 This section collects information that users gives and sends it to us.-->
                 <form class="contact-form">
                     <div class="name-fields">
-                        <!--The input element is used becaused your first and last name are single entries.
-                        The type atrribute is used to specify that the entry is text. 
-                        The placeholder is for both aesthetic purposes and to let the user know what to enter on each line.-->
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" id="contactFirstName" placeholder="First Name">
+                        <input type="text" id="contactLastName" placeholder="Last Name">
                     </div>
-                    <input type="email" placeholder="Email">
-                    <!--Textarea is used for multi line entries and a message is going to probably be multiple lines.-->
-                    <textarea placeholder="Write a message"></textarea> 
+                    <!--The input element is used becaused your first and last name are single entries.
+                    The type atrribute is used to specify that the entry is text. 
+                    The placeholder is for both aesthetic purposes and to let the user know what to enter on each line.-->
+                    <input type="email" id="contactEmail" placeholder="Email">
+                    <textarea id="contactMessage" placeholder="Write a message"></textarea>
+                     <!--Textarea is used for multi line entries and a message is going to probably be multiple lines.-->
+                    <p class="form-message"></p>
                     <button type="submit">Submit</button>
                 </form>
             </div>
@@ -71,5 +72,7 @@
         <p>&copy;StoreFront 2026</p>
 
     </footer>
+
+    <script src="/My Website/JavaScript/script.js"></script>
 </body>
 </html>
