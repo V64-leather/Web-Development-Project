@@ -52,19 +52,22 @@
             <p>Fill out the form below and we'll get back to you</p>
             <form class="enquiry-form">
 
-                <select class="enquiry-select">
+                <select class="enquiry-select" id="enquiryType">
                     <option value="">Select enquiry type</option>
                     <option value="account protection">Account Protection</option>
                     <option value="general">General Question</option>
                 </select>
 
                 <div class="name-fields">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
+                    <input type="text" id="enquiryFirstName" placeholder="First Name">
+                    <input type="text" id="enquiryLastName" placeholder="Last Name">
                 </div>
 
-                <input type="email" placeholder="Email">
-                <textarea type="text" placeholder="Message"></textarea>
+                <input type="email" id="enquiryEmail" placeholder="Email">
+                <textarea id="enquiryMessage" placeholder="Message"></textarea>
+
+                <p class="enquiry-message"></p>
+
                 <button type="submit">Submit</button>
             </form>
         </section>
