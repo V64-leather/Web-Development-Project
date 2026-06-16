@@ -117,3 +117,65 @@ if (enquiryForm) {
         enquiryForm.reset();
     });
 }
+
+// PRODUCTS PAGE SEARCH AND FILTER
+
+const searchInput = document.querySelector(".search-bar input");
+const filterButtons = document.querySelectorAll(".filter-btn");
+const productCards = document.querySelectorAll("#games-container .game-card");
+
+if (searchInput) {
+    searchInput.addEventListener("input", function() {
+        const searchText = searchInput.value.toLowerCase();
+
+        productCards.forEach(function(card) {
+            const gameTitle = card.querySelector("h3").textContent.toLowerCase();
+
+            if (gameTitle.includes(searchText)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+}
+
+// PRODUCT CATEGORY FILTER
+
+filterButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        const selectedCategory = button.textContent.toLowerCase();
+
+        filterButtons.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+        productCards.forEach(function(card) {
+            const cardCategory = card.getAttribute("data-category");
+
+            if (selectedCategory === "all" || cardCategory === selectedCategory) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+});
+
+// SAVE GAME BUTTONS
+
+const saveButtons = document.querySelectorAll(".save-btn");
+
+saveButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        if (button.textContent === "Saved") {
+            button.textContent = "🔖";
+            button.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
+        } else {
+            button.textContent = "Saved";
+            button.style.backgroundColor = "#e05c2a";
+        }
+    });
+});
