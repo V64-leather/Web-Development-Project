@@ -1286,3 +1286,21 @@ input:-webkit-autofill:focus{
         height: auto;
     }
 }
+
+/* LIST VIEW FOR PRODUCTS PAGE */
+
+.games-grid.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.games-grid.list-view .game-card {
+    max-width: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.games-grid.list-view .card-image img {
+    width: 220px;
+    height: 140px;
+}

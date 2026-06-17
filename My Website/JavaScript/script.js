@@ -179,3 +179,44 @@ saveButtons.forEach(function(button) {
         }
     });
 });
+
+// Enhancing the FAQ section
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(function(item) {
+    item.addEventListener("toggle", function() {
+        if (item.open) {
+            faqItems.forEach(function(otherItem) {
+                if (otherItem !== item) {
+                    otherItem.open = false;
+                }
+            });
+        }
+    });
+});
+
+// GRID AND LIST VIEW TOGGLE
+
+const gridViewButton = document.querySelector("#grid-view");
+const listViewButton = document.querySelector("#list-view");
+const gamesContainer = document.querySelector("#games-container");
+
+if (gridViewButton && listViewButton && gamesContainer) {
+    listViewButton.addEventListener("click", function() {
+        gamesContainer.classList.add("list-view");
+
+        listViewButton.classList.add("active");
+        gridViewButton.classList.remove("active");
+    });
+
+    gridViewButton.addEventListener("click", function() {
+        gamesContainer.classList.remove("list-view");
+
+        gridViewButton.classList.add("active");
+        listViewButton.classList.remove("active");
+    });
+}
+
+window.location.href =
+`mailto:support@stellar.co.za?subject=${subject}&body=${message}`;
