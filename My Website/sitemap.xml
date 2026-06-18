@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Main Pages -->
+    <url><loc>index.html</loc></url>
+    <url><loc>About_Us.html</loc></url>
+    <url><loc>Contact.html</loc></url>
+    <url><loc>Enquiry.html</loc></url>
+    <url><loc>Products.html</loc></url>
+
+    <!-- Category Pages -->
+    <url><loc>Games-category-files/action.html</loc></url>
+    <url><loc>Games-category-files/adventure.html</loc></url>
+    <url><loc>Games-category-files/horror.html</loc></url>
+    <url><loc>Games-category-files/indie.html</loc></url>
+    <url><loc>Games-category-files/rpg.html</loc></url>
+
+    <!-- Product/Game Pages -->
+    <url><loc>Product_page_game_files/Alan_Wake.html</loc></url>
+    <url><loc>Product_page_game_files/Assassins_Creed_2.html</loc></url>
+    <url><loc>Product_page_game_files/Batman_Arkham_City.html</loc></url>
+    <url><loc>Product_page_game_files/Hades_1.html</loc></url>
+    <url><loc>Product_page_game_files/Hitman_absolution.html</loc></url>
+    <url><loc>Product_page_game_files/Hollow_knight.html</loc></url>
+    <url><loc>Product_page_game_files/LA-Noire.html</loc></url>
+    <url><loc>Product_page_game_files/Lethal_Company.html</loc></url>
+    <url><loc>Product_page_game_files/Paradise_Killer.html</loc></url>
+    <url><loc>Product_page_game_files/Peak.html</loc></url>
+    <url><loc>Product_page_game_files/RV_There_Yet.html</loc></url>
+    <url><loc>Product_page_game_files/Schedule_1.html</loc></url>
+    <url><loc>Product_page_game_files/Tomb_Raider_2013.html</loc></url>
+
+</urlset>

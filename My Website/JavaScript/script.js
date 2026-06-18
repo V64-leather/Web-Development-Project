@@ -46,12 +46,23 @@ if (contactForm) {
 
                 // The above code stops the form if @ symbol is not present in the email
 
-        formMessage.textContent = "Thank you, " + firstName.value + ". Your message has been prepared successfully.";
-        formMessage.style.color = "#1a6fb5";
+            formMessage.textContent = "Preparing your email...";
+            formMessage.style.color = "#1a6fb5";
 
-                // The above code says everthing is fine if all the previous checks go through
+            const subject = "STELLAR Contact Form Submission";
 
-        contactForm.reset();
+            const emailBody =
+            "Name: " + firstName.value + " " + lastName.value +
+            "\nEmail: " + email.value +
+            "\n\nMessage:\n" + message.value;
+
+            window.location.href =
+            "mailto:terrain974@gmail.com?subject=" +
+            encodeURIComponent(subject) +
+            "&body=" +
+            encodeURIComponent(emailBody);
+
+            contactForm.reset();
     });
 }
 
@@ -113,6 +124,19 @@ if (enquiryForm) {
 
         enquiryMessage.textContent = "Thank you, " + firstName.value + ". Your " + enquiryType.value + " enquiry has been received.";
         enquiryMessage.style.color = "#1a6fb5";
+        const subject = "STELLAR Enquiry Form Submission";
+
+        const emailBody =
+        "Enquiry Type: " + enquiryType.value +
+        "\nName: " + firstName.value + " " + lastName.value +
+        "\nEmail: " + email.value +
+        "\n\nMessage:\n" + message.value;
+
+        window.location.href =
+        "mailto:terrain974@gmail.com?subject=" +
+        encodeURIComponent(subject) +
+        "&body=" +
+        encodeURIComponent(emailBody);
 
         enquiryForm.reset();
     });
@@ -218,5 +242,82 @@ if (gridViewButton && listViewButton && gamesContainer) {
     });
 }
 
-window.location.href =
-`mailto:support@stellar.co.za?subject=${subject}&body=${message}`;
+
+
+const gameDescriptions = {
+
+    "Hollow Knight":
+    "Hollow Knight is a 2017 Metroidvania video game developed and published by Team Cherry. Players explore the vast underground kingdom of Hallownest, battling enemies, discovering secrets, and unlocking powerful abilities.",
+
+    "Hades 1":
+    "Hades is a roguelike action role-playing game developed by Supergiant Games. Players control Zagreus, son of Hades, as he attempts to escape the Underworld while growing stronger after every attempt.",
+
+    "Schedule 1":
+    "Schedule I is an open-world crime simulator where players build criminal enterprises, manage resources, and expand their influence throughout the game world.",
+
+    "Batman: Arkham City":
+    "Batman: Arkham City expands upon Arkham Asylum by allowing players to explore a massive prison district within Gotham City while battling iconic villains.",
+
+    "Tomb Raider":
+    "Tomb Raider follows Lara Croft's transformation from an inexperienced explorer into a hardened survivor after becoming stranded on a mysterious island.",
+
+    "LA Noire":
+    "L.A. Noire is a detective thriller set in 1940s Los Angeles. Players investigate crimes, interrogate suspects, and solve complex cases as detective Cole Phelps.",
+
+    "Lethal Company":
+    "Lethal Company is a cooperative horror game where players collect scrap from abandoned facilities while surviving dangerous creatures and environmental hazards.",
+
+    "Peak":
+    "Peak is a cooperative mountain-climbing adventure where players work together to overcome obstacles and reach the summit.",
+
+    "RV There Yet":
+    "RV There Yet is a cooperative road-trip adventure game where players travel across unique locations while completing objectives and managing resources."
+
+};
+
+// READ MORE LIGHTBOX
+
+const modal = document.querySelector("#gameModal");
+const modalTitle = document.querySelector("#modalTitle");
+const modalDescription = document.querySelector("#modalDescription");
+const closeModal = document.querySelector(".close-modal");
+
+const readMoreButtons = document.querySelectorAll(".btn-read-more");
+
+readMoreButtons.forEach(function(button) {
+
+    button.addEventListener("click", function() {
+
+        const card = button.closest(".game-card");
+
+        const gameTitle = card.querySelector("h4").textContent;
+
+        modalTitle.textContent = gameTitle;
+
+        modalDescription.textContent =
+            gameDescriptions[gameTitle];
+
+        modal.style.display = "flex";
+
+    });
+
+});
+
+closeModal.addEventListener("click", function() {
+
+    modal.style.display = "none";
+
+});
+
+window.addEventListener("click", function(event) {
+
+    if (event.target === modal) {
+
+        modal.style.display = "none";
+
+    }
+
+});
+
+console.log(modal);
+console.log(readMoreButtons);
