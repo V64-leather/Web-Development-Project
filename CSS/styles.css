@@ -104,7 +104,7 @@ body{
 /* The " position: relative " is set for the overlay to move relative to it */
 
 .hero{
-    background-image: url('/My Website/Images/SAMURAI\ Background.jpg');
+    background-image: url('/Images/SAMURAI\ Background.jpg');
     background-size: cover;
     background-position: center;
     min-height: 500px;
