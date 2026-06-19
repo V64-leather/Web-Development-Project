@@ -3,89 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Browse and purchase video games on Stellar, including action, rpg, horror and adventure titles.">
+    <meta name="description" content="Browse and purchase video games on Stellar, including action, RPG, horror and adventure titles.">
     <meta name="keywords" content="games, gaming, pc games, action games, rpg games, STELLAR">
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Home</title>
 </head>
 <body>
-    
+
     <header class="site-header">
-        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
-        
         <div class="logo">
             <img src="Images/StoreFront logo.png" alt="STELLAR logo">
-            <h1> STELLAR</h1>
+            <h1>STELLAR</h1>
         </div>
 
-        <!--Nav contents to the far right of the screen-->
         <div>
             <nav class="main-nav">
-                <a href="#" title="Home page">Home</a> 
-                <a href="About_Us.html" title="About Us page">About Us</a> 
-                <a href="Contact.html" title="Contact page">Contact</a> 
-                <a href="Enquiry.html" title="Enquiry page">Enquiry</a> 
-                <a href="Products.html" title="Products page">Products</a>   
+                <a href="#" title="Home page">Home</a>
+                <a href="About_Us.html" title="About Us page">About Us</a>
+                <a href="Contact.html" title="Contact page">Contact</a>
+                <a href="Enquiry.html" title="Enquiry page">Enquiry</a>
+                <a href="Products.html" title="Products page">Products</a>
             </nav>
         </div>
     </header>
-    <!--The homepage will have multiple sections that show of newer games, popular games and discounted games to the user in the 
-    form of game cards.
-    There will be a scroll funtion and for each section revealing more games that will be initially sitiated offscreen.
-    There will be background image just below the nav bar and there will be some welcoming words situated on the image-->
 
     <main>
         <section class="hero">
-
-            <!--WELCOME TO STELLAR has to be very big and bold. In the of the section as well. Having a background image that
-            compliments it-->
-
             <div class="hero-text">
                 <h2>WELCOME TO STELLAR</h2>
-                <p><b>"The best and only place to be for the next evolution of gaming"</b> </p>
+                <p><b>"The best and only place to be for the next evolution of gaming"</b></p>
                 <a href="Products.html" class="btn-primary">Explore</a>
-
             </div>
         </section>
 
         <section class="game-section">
-            <!--This section will have popular games, cheaper games and newer games that the user can scroll through and click 
-            which will then take them to the game on the products page.
-            Article elements are used because I'm going to have game cards and need to have them as seperate entities.
-            Buttons elements are used to reveal more information about the game that isn't on display.-->
-
             <h3>Popular Games</h3>
+
             <div class="game-cards">
                 <article class="game-card">
                     <a href="Product_page_game_files/Hollow_knight.html">
-                        <img src="Images/Hollow knight( favourite games ).jpg" alt="Hollow Knight" title="Hollow Knight" >
+                        <img src="Images/Hollow knight( favourite games ).jpg" alt="Hollow Knight" title="Hollow Knight">
                     </a>
                     <h4>Hollow Knight</h4>
-                    <p>Hollow Knight is a 2017 Metroidvania video game developed and published by Australian independent
-                        developer Team Cherry. The player controls a nameless insectoid......
-                    </p>
+                    <p>Forge your own path through a ruined kingdom filled with mysteries, powerful enemies and hidden secrets waiting beneath Hallownest...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/Hades_1.html">
-                        <img src="Images/Hades 1( favourite games ).jpg" alt="Hades 1" title="Hades 1" >
+                        <img src="Images/Hades 1( favourite games ).jpg" alt="Hades 1" title="Hades 1">
                     </a>
                     <h4>Hades 1</h4>
-                    <p>Hades is a 2020 roguelike action role-playing game developed and published by Supergiant Games.
-                       It was released.......
-                    </p>
+                    <p>Battle your way out of the Underworld using legendary weapons and divine powers gifted by the gods of Olympus...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/Schedule_1.html">
-                        <img src="Images/Schedule 1( favourite games ).jpg" alt="Schedule 1" title="Schedule 1" >
+                        <img src="Images/Schedule 1( favourite games ).jpg" alt="Schedule 1" title="Schedule 1">
                     </a>
                     <h4>Schedule 1</h4>
-                    <p>Schedule I is an upcoming open world crime simulator video game developed by Australian developer
-                       TVGS (Tyler's Video Game Studio).[2][3] Released in early access on 24 March 2025 for Windows, the......
-                    </p>
+                    <p>Build a criminal empire from the ground up as you manufacture products, expand your operation and dominate the city...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
             </div>
@@ -93,38 +71,32 @@
 
         <section class="game-section">
             <h3>Discounted Games</h3>
+
             <div class="game-cards">
                 <article class="game-card">
                     <a href="Product_page_game_files/Batman_Arkham_City.html">
-                        <img src="Images/Arkham City( Discounted Games ).jpg" alt=" Batman Arkham City" tile="Batman Arkham City" >
+                        <img src="Images/Arkham City( Discounted Games ).jpg" alt="Batman Arkham City" title="Batman Arkham City">
                     </a>
                     <h4>Batman: Arkham City</h4>
-                    <p>Batman: Arkham City is a 2011 action-adventure game developed by Rocksteady Studios and published 
-                        by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero..... 
-                    </p>
+                    <p>Become the Dark Knight and explore the dangerous streets of Arkham City while facing Gotham's most notorious criminals...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/Tomb_Raider_2013.html">
-                        <img src="Images/Tomb Raider 2013( Discounted Games ).jpg" alt="Tomb Raider" title="Tomb Raider 2013" >
+                        <img src="Images/Tomb Raider 2013( Discounted Games ).jpg" alt="Tomb Raider" title="Tomb Raider 2013">
                     </a>
                     <h4>Tomb Raider</h4>
-                    <p>Tomb Raider is a 2013 action-adventure game developed by Crystal Dynamics and published by Square Enix. 
-                        It is the tenth main entry and a reboot of the Tomb Raider series, acting as the first.......
-                    </p>
+                    <p>Experience Lara Croft's origin story as she fights to survive a deadly island and uncover its dark secrets...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/LA-Noire.html">
-                        <img src="Images/LA Noire( Discounted Games ).jpg" alt="LA Noire" title="LA Noire" >
+                        <img src="Images/LA Noire( Discounted Games ).jpg" alt="LA Noire" title="LA Noire">
                     </a>
                     <h4>LA Noire</h4>
-                    <p>L.A. Noire is a 2011 action-adventure game developed by Team Bondi and published by Rockstar 
-                        Games. Set in 1947 Los Angeles, the game follows the rise of detective Cole Phelps among the 
-                        ranks of the Los Angeles Police Department.......
-                    </p>
+                    <p>Investigate murders, conspiracies and corruption as detective Cole Phelps in a detailed recreation of 1940s Los Angeles...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
             </div>
@@ -132,40 +104,32 @@
 
         <section class="game-section">
             <h3>Newer Games</h3>
+
             <div class="game-cards">
                 <article class="game-card">
                     <a href="Product_page_game_files/Lethal_Company.html">
-                        <img src="Images/Lethal Company( newer game ).jpg" alt="Lethal Company" title="Lethal Company" >
+                        <img src="Images/Lethal Company( newer game ).jpg" alt="Lethal Company" title="Lethal Company">
                     </a>
                     <h4>Lethal Company</h4>
-                    <p>In Lethal Company, players obtain and sell scrap from abandoned, industrialized exomoons 
-                        while avoiding traps, environmental hazards, monsters, which are often referred to as 
-                        "anomalies", "entities", or "creatures", and the hostile fauna. As employees of 
-                        "The Company", players must.....
-                    </p>
+                    <p>Work together with friends to collect valuable scrap from abandoned moons while surviving terrifying creatures and hazards...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/Peak.html">
-                        <img src="Images/Peak( newer game ).jpg" alt="Peak"  title="Peak" >
+                        <img src="Images/Peak( newer game ).jpg" alt="Peak" title="Peak">
                     </a>
                     <h4>Peak</h4>
-                    <p>The objective of the game is to climb a semi pre-generated mountain with up to four players. 
-                        There are various items that can be found along the way that may assist in the ascent. The 
-                        game was met positively by critics..... 
-                    </p>
+                    <p>Climb a dangerous mountain alone or with friends where every decision could mean success or a disastrous fall...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
 
                 <article class="game-card">
                     <a href="Product_page_game_files/RV_There_Yet.html">
-                        <img src="Images/RV There Yet( newer game ).jpg" alt="RV There Yet" title="RV There Yet" >
+                        <img src="Images/RV There Yet( newer game ).jpg" alt="RV There Yet" title="RV There Yet">
                     </a>
                     <h4>RV There Yet</h4>
-                    <p>RV There Yet? is a cooperative adventure video game developed and published by Swedish[1] 
-                        game studio Nuggets Entertainment. It was released on October 21, 2025, and gained popularity.....
-                    </p>
+                    <p>Embark on a chaotic road trip adventure where teamwork, communication and quick thinking are the keys to getting home...</p>
                     <button class="btn-read-more">Read More</button>
                 </article>
             </div>
@@ -173,20 +137,16 @@
 
         <section class="community-hero">
             <div class="avatar-cluster">
-                <!--This section will have a black screen mostly and the images will be like small profile photos floating and there 
-                will be some words in the middle introducing the community portion of this gaming store.
-                There will be smaller section that will inform the new user on the members and active daily players that the storefront
-                has. -->
-                <img src="Images/community profile 1.jpg" alt="community member" >
-                <img src="Images/community profile 2.jpg" alt="community member" >
-                <img src="Images/community profile 3.jpg" alt="community member" >
-                <img src="Images/community profile 4.jpg" alt="community member" >
-                <img src="Images/community profile 5.webp" alt="community member" >
+                <img src="Images/community profile 1.jpg" alt="community member">
+                <img src="Images/community profile 2.jpg" alt="community member">
+                <img src="Images/community profile 3.jpg" alt="community member">
+                <img src="Images/community profile 4.jpg" alt="community member">
+                <img src="Images/community profile 5.webp" alt="community member">
             </div>
+
             <div class="community-text">
                 <h2>Join Us On TERRAIN</h2>
-                <p>Join our thriving and ever evolving community of gamers. Connect and interact with other fellow players in this special space</p>
-                <!--This button will be a link and transport the user to the community section-->
+                <p>Join our thriving and ever evolving community of gamers. Connect and interact with other fellow players in this special space.</p>
                 <a href="#" class="btn-community">Join Our Community</a>
             </div>
         </section>
@@ -204,27 +164,18 @@
         </section>
 
         <div class="lightbox-modal" id="gameModal">
-
             <div class="modal-content">
-
                 <span class="close-modal">&times;</span>
-
                 <h2 id="modalTitle"></h2>
-
                 <p id="modalDescription"></p>
-
             </div>
-
         </div>
-
     </main>
 
     <footer class="site-footer">
         <p>&copy;StoreFront 2026</p>
-
     </footer>
 
-    <script src="JavaScript/script.js""></script>
-    
+    <script src="JavaScript/script.js"></script>
 </body>
 </html>

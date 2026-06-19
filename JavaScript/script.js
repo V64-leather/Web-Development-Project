@@ -5,11 +5,11 @@ const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
     contactForm.addEventListener("submit", function(event) {
 
-                // The above says find the contact and when the submit button is clicked then run this code
+        // The above says find the contact and when the submit button is clicked then run this code
 
         event.preventDefault();
 
-                // The little snippet of code above prevents the page from refreshing every time the form is submitted
+        // The little snippet of code above prevents the page from refreshing every time the form is submitted
 
         const firstName = document.querySelector("#contactFirstName");
         const lastName = document.querySelector("#contactLastName");
@@ -17,75 +17,72 @@ if (contactForm) {
         const message = document.querySelector("#contactMessage");
         const formMessage = document.querySelector(".form-message");
 
-                // The code above fetches all the info typed in by the user in each of the boxes
+        // The code above fetches all the info typed in by the user in each of the boxes
 
         if (
             firstName.value.trim() === "" ||
             lastName.value.trim() === "" ||
             email.value.trim() === "" ||
             message.value.trim() === ""
-
-                // The above code checks if any of the boxes are empty
-
         ) {
             formMessage.textContent = "Please complete all fields before submitting.";
             formMessage.style.color = "red";
             return;
         }
 
-                //The above code stops the form if any of the boxes are empty to prevent incomplete submissions
+        // The above code stops the form if any of the boxes are empty to prevent incomplete submissions
 
         if (!email.value.includes("@")) {
 
-                // the above code checks if the email includes the @
+            // the above code checks if the email includes the @
 
             formMessage.textContent = "Please enter a valid email address.";
             formMessage.style.color = "red";
             return;
         }
 
-                // The above code stops the form if @ symbol is not present in the email
+        // The above code stops the form if @ symbol is not present in the email
 
-            formMessage.textContent = "Preparing your email...";
-            formMessage.style.color = "#1a6fb5";
+        formMessage.textContent = "Preparing your email...";
+        formMessage.style.color = "#1a6fb5";
 
-            const subject = "STELLAR Contact Form Submission";
+        const subject = "STELLAR Contact Form Submission";
 
-            const emailBody =
+        const emailBody =
             "Name: " + firstName.value + " " + lastName.value +
             "\nEmail: " + email.value +
             "\n\nMessage:\n" + message.value;
 
-            window.location.href =
+        window.location.href =
             "mailto:terrain974@gmail.com?subject=" +
             encodeURIComponent(subject) +
             "&body=" +
             encodeURIComponent(emailBody);
 
-            contactForm.reset();
+        contactForm.reset();
     });
 }
 
-                // The above code clears form for a new start
+// The above code clears form for a new start
 
 
 // ENQUIRY FORM VALIDATION
 
 const enquiryForm = document.querySelector(".enquiry-form");
 
-                // The above code finds the enquiiry form and saves it so JavaScript can work
+// The above code finds the enquiry form and saves it so JavaScript can work
 
 if (enquiryForm) {
 
-                // The above code says to only run the JavaScript code if the user is currently on the enquiry page
+    // The above code says to only run the JavaScript code if the user is currently on the enquiry page
 
     enquiryForm.addEventListener("submit", function(event) {
 
-                // The above code runs the code when the submit button is clicked
+        // The above code runs the code when the submit button is clicked
 
         event.preventDefault();
 
-                // The above code prevents the page from refreshing before the user sees the validation message
+        // The above code prevents the page from refreshing before the user sees the validation message
 
         const enquiryType = document.querySelector("#enquiryType");
         const firstName = document.querySelector("#enquiryFirstName");
@@ -94,7 +91,7 @@ if (enquiryForm) {
         const message = document.querySelector("#enquiryMessage");
         const enquiryMessage = document.querySelector(".enquiry-message");
 
-                // The above code finds all the pieces of information the user entered and area where the feedback will be displayed
+        // The above code finds all the pieces of information the user entered and area where the feedback will be displayed
 
         if (
             enquiryType.value.trim() === "" ||
@@ -104,18 +101,18 @@ if (enquiryForm) {
             message.value.trim() === ""
         ) {
 
-                // The above code says if any field has been left blank then do not continue
+            // The above code says if any field has been left blank then do not continue
 
             enquiryMessage.textContent = "Please complete all fields before submitting your enquiry.";
             enquiryMessage.style.color = "red";
             return;
         }
 
-                //The above code tells the user to complete all fields and stops the submission process
+        // The above code tells the user to complete all fields and stops the submission process
 
         if (!email.value.includes("@")) {
 
-                // The above code says the email is invalid if it does not contain an @ symbol
+            // The above code says the email is invalid if it does not contain an @ symbol
 
             enquiryMessage.textContent = "Please enter a valid email address.";
             enquiryMessage.style.color = "red";
@@ -124,23 +121,25 @@ if (enquiryForm) {
 
         enquiryMessage.textContent = "Thank you, " + firstName.value + ". Your " + enquiryType.value + " enquiry has been received.";
         enquiryMessage.style.color = "#1a6fb5";
+
         const subject = "STELLAR Enquiry Form Submission";
 
         const emailBody =
-        "Enquiry Type: " + enquiryType.value +
-        "\nName: " + firstName.value + " " + lastName.value +
-        "\nEmail: " + email.value +
-        "\n\nMessage:\n" + message.value;
+            "Enquiry Type: " + enquiryType.value +
+            "\nName: " + firstName.value + " " + lastName.value +
+            "\nEmail: " + email.value +
+            "\n\nMessage:\n" + message.value;
 
         window.location.href =
-        "mailto:terrain974@gmail.com?subject=" +
-        encodeURIComponent(subject) +
-        "&body=" +
-        encodeURIComponent(emailBody);
+            "mailto:terrain974@gmail.com?subject=" +
+            encodeURIComponent(subject) +
+            "&body=" +
+            encodeURIComponent(emailBody);
 
         enquiryForm.reset();
     });
 }
+
 
 // PRODUCTS PAGE SEARCH AND FILTER
 
@@ -163,6 +162,7 @@ if (searchInput) {
         });
     });
 }
+
 
 // PRODUCT CATEGORY FILTER
 
@@ -188,6 +188,7 @@ filterButtons.forEach(function(button) {
     });
 });
 
+
 // SAVE GAME BUTTONS
 
 const saveButtons = document.querySelectorAll(".save-btn");
@@ -204,7 +205,8 @@ saveButtons.forEach(function(button) {
     });
 });
 
-// Enhancing the FAQ section
+
+// ENHANCING THE FAQ SECTION
 
 const faqItems = document.querySelectorAll(".faq-item");
 
@@ -219,6 +221,7 @@ faqItems.forEach(function(item) {
         }
     });
 });
+
 
 // GRID AND LIST VIEW TOGGLE
 
@@ -243,37 +246,39 @@ if (gridViewButton && listViewButton && gamesContainer) {
 }
 
 
+// HOMEPAGE LIGHTBOX DESCRIPTIONS
 
 const gameDescriptions = {
 
     "Hollow Knight":
-    "Hollow Knight is a 2017 Metroidvania video game developed and published by Team Cherry. Players explore the vast underground kingdom of Hallownest, battling enemies, discovering secrets, and unlocking powerful abilities.",
+    "Forge your own path through the ruined kingdom of Hallownest, a vast underground world filled with forgotten civilizations, powerful enemies and hidden secrets. Explore twisting caverns, acquire new abilities, challenge dangerous bosses and uncover the mysteries surrounding the fallen kingdom in this beautifully hand-drawn Metroidvania adventure.",
 
     "Hades 1":
-    "Hades is a roguelike action role-playing game developed by Supergiant Games. Players control Zagreus, son of Hades, as he attempts to escape the Underworld while growing stronger after every attempt.",
+    "Battle your way out of the Underworld as Zagreus, the immortal son of Hades. Wield legendary weapons, receive powerful blessings from the gods of Olympus and grow stronger with every escape attempt. Featuring fast-paced combat, memorable characters and a rich narrative that unfolds over multiple runs.",
 
     "Schedule 1":
-    "Schedule I is an open-world crime simulator where players build criminal enterprises, manage resources, and expand their influence throughout the game world.",
+    "Build a criminal empire from the ground up in the city of Hyland Point. Manufacture products, manage resources, recruit employees, purchase properties and expand your influence throughout the city. Every decision shapes your rise from a small-time operator into one of the most powerful figures in the underground economy.",
 
     "Batman: Arkham City":
-    "Batman: Arkham City expands upon Arkham Asylum by allowing players to explore a massive prison district within Gotham City while battling iconic villains.",
+    "Become the Dark Knight and explore the dangerous prison district known as Arkham City. Face iconic villains including The Joker, Two-Face and The Penguin while uncovering a conspiracy that threatens Gotham. Use Batman's gadgets, combat skills and detective abilities to restore justice to the city.",
 
     "Tomb Raider":
-    "Tomb Raider follows Lara Croft's transformation from an inexperienced explorer into a hardened survivor after becoming stranded on a mysterious island.",
+    "Experience Lara Croft's origin story as she transforms from an inexperienced archaeologist into a hardened survivor. Stranded on a mysterious island after a shipwreck, Lara must hunt, fight and solve ancient mysteries while confronting a dangerous cult and uncovering the island's dark secrets.",
 
     "LA Noire":
-    "L.A. Noire is a detective thriller set in 1940s Los Angeles. Players investigate crimes, interrogate suspects, and solve complex cases as detective Cole Phelps.",
+    "Investigate murders, conspiracies and corruption as detective Cole Phelps in a detailed recreation of 1940s Los Angeles. Gather evidence, interrogate suspects and solve challenging cases using observation and deduction. Every choice you make can influence the outcome of investigations and your reputation within the LAPD.",
 
     "Lethal Company":
-    "Lethal Company is a cooperative horror game where players collect scrap from abandoned facilities while surviving dangerous creatures and environmental hazards.",
+    "Work together with friends to collect valuable scrap from abandoned industrial moons while surviving terrifying creatures and environmental hazards. Cooperation, communication and careful planning are essential as you attempt to meet your profit quota and avoid becoming another casualty of the Company's dangerous assignments.",
 
     "Peak":
-    "Peak is a cooperative mountain-climbing adventure where players work together to overcome obstacles and reach the summit.",
+    "Climb a dangerous mountain alone or with friends where every decision could mean success or disaster. Manage limited resources, overcome environmental obstacles and help your teammates survive the journey. The higher you climb, the more challenging the terrain becomes, testing both skill and teamwork.",
 
     "RV There Yet":
-    "RV There Yet is a cooperative road-trip adventure game where players travel across unique locations while completing objectives and managing resources."
+    "Embark on a chaotic road-trip adventure where teamwork, communication and quick thinking are the keys to success. Travel through unique locations, complete objectives, overcome unexpected challenges and work together to guide your recreational vehicle safely home. Every journey creates new stories and memorable moments."
 
 };
+
 
 // READ MORE LIGHTBOX
 
@@ -283,25 +288,6 @@ const modalDescription = document.querySelector("#modalDescription");
 const closeModal = document.querySelector(".close-modal");
 
 const readMoreButtons = document.querySelectorAll(".btn-read-more");
-
-readMoreButtons.forEach(function(button) {
-
-    button.addEventListener("click", function() {
-
-        const card = button.closest(".game-card");
-
-        const gameTitle = card.querySelector("h4").textContent;
-
-        modalTitle.textContent = gameTitle;
-
-        modalDescription.textContent =
-            gameDescriptions[gameTitle];
-
-        modal.style.display = "flex";
-
-    });
-
-});
 
 if (modal && modalTitle && modalDescription && closeModal) {
     readMoreButtons.forEach(function(button) {
@@ -325,6 +311,7 @@ if (modal && modalTitle && modalDescription && closeModal) {
         }
     });
 }
+
 
 // BUY NOW BUTTON ON GAME PAGES
 
