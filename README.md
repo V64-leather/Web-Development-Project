@@ -133,7 +133,17 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 ## Changelog History
 
 **Commits on Jun 19, 2026**
-
+- Refactor game category pages: Update titles, meta descriptions, and improve image paths; enhance layout consistency across adventure, horror, indie, and RPG pages. 
+- Modify JavaScript for form validation and improve user experience with clearer comments. 
+- Revise index.html for better content presentation and fix minor HTML issues.
+- Fix file paths and update links in HTML files for consistent navigation and resource loading
+- Fix file paths for CSS and image resources across multiple HTML files to ensure proper loading and accessibility.
+- Add new product pages and main site structure
+- Created individual HTML pages for new games: Peak, RV There Yet, Schedule I, and Tomb Raider 2013.
+- Developed a comprehensive Products page to showcase various game categories and featured games.
+- Implemented an index.html for the homepage with sections for popular, discounted, and newer games.
+- Added robots.txt and sitemap.xml for better SEO and site indexing.
+- Updated navigation and footer elements across the site for consistency.
 - Update game pages with improved metadata, descriptions, and formatting
 - Modified meta descriptions and keywords for better SEO on LA Noire, Lethal Company, Paradise Killer, Peak, RV There Yet, Schedule I, and Tomb Raider 2013 pages.
 - Standardized game titles and descriptions for clarity and consistency.
