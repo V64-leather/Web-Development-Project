@@ -132,6 +132,35 @@ Individuals with a PC, Desktop or Laptop that are interested in playing video ga
 
 ## Changelog History
 
+**Commits on Jun 19, 2026**
+
+- Update game pages with improved metadata, descriptions, and formatting
+- Modified meta descriptions and keywords for better SEO on LA Noire, Lethal Company, Paradise Killer, Peak, RV There Yet, Schedule I, and Tomb Raider 2013 pages.
+- Standardized game titles and descriptions for clarity and consistency.
+- Enhanced PC specs formatting for better readability.
+- Removed unnecessary comments and improved HTML structure.
+- Added missing JavaScript file references to all game pages.
+
+**Commits on Jun 18, 2026**
+
+- feat: add interactive map section, enhance SEO with meta tags, and implement lightbox for game descriptions
+
+**Commits on Jun 17, 2026**
+
+- feat: enhance SEO with meta tags and improve game category titles
+
+**Commits on Jun 16, 2026**
+
+- feat: implement product search and category filter functionality
+
+**Commits on Jun 13, 2026**
+
+- feat: implement validation for enquiry form and enhance user feedback
+
+**Commits on Jun 12, 2026**
+
+- feat: add contact form validation and update HTML structure
+
 **Commits on May 30, 2026**
 
 - Add additional images for device views in README
@@ -243,6 +272,8 @@ Wix Blog (2025) 15 Contact Us Page Examples: Best Practices and Creative Ideas. 
 Colorlib (2025) 17 Best Gaming Website Templates (HTML & WordPress). Available at: https://colorlib.com/wp/gaming-html-website-templates/ (Accessed: 29 May 2026). 
 
 Sasspo (n.d.) 4 Community Section Examples for Design Inspiration. Available at: https://saaspo.com/section-type/saas-community-section-examples (Accessed: 29 May 2026) 
+
+Wikipedia. (n.d.). Wikipedia: The Free Encyclopedia. Available at: https://www.wikipedia.org/ (Accessed: 17 June 2026).
 
 ## Website Screenshots
 
