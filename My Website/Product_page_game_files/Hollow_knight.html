@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Browse and purchase video games on Stellar, including action, rpg, horror and adventure titles.">
-    <meta name="keywords" content="games, gaming, pc games, action games, rpg games, STELLAR">
+    <meta name="description" content="View Hollow Knight on STELLAR, including game details, trailer, price and PC requirements.">
+    <meta name="keywords" content="Hollow Knight, Team Cherry, STELLAR, metroidvania games, indie games">
     <link rel="stylesheet" href="/My Website/CSS/styles.css">
     <title>Hollow Knight</title>
 </head>
 <body>
     <header class="site-header">
-        <!--STELLAR has to on the right side of the logo. Both them and the logo are far to the left-->
-        
         <div class="logo">
             <img src="/My Website/Images/StoreFront logo.png" alt="STELLAR logo">
-            <h1> STELLAR</h1>
+            <h1>STELLAR</h1>
         </div>
 
-        <!--Nav contents to the far right of the screen-->
         <div>
             <nav class="main-nav">
                 <a href="/My Website/index.html" title="Home page">Home</a> 
@@ -37,19 +34,22 @@
 
             <div class="game-details">
                 <h1>Hollow Knight</h1>
-                <ul>
-                    <li><span>Developer</span>Team Cherry</li>
-                    <li><span>Publisher</span>Team Cherry</li>
-                    <li><span>Released</span>24 Feb 2017</li>
+
+                <ul class="game-meta">
+                    <li><span>Developer</span> Team Cherry</li>
+                    <li><span>Publisher</span> Team Cherry</li>
+                    <li><span>Released</span> 24 Feb 2017</li>
                 </ul>
-                <p class="game-description">Forge your own path in Hollow Knight! An epic action adventure
-                   through a vast ruined kingdom of insects and heroes. Explore twisting 
-                   caverns, battle tainted creatures and befriend bizarre bugs, all in a
-                   classic, hand-drawn 2D style.
+
+                <p class="game-description">
+                    Forge your own path in Hollow Knight. An epic action adventure through a vast ruined
+                    kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures
+                    and befriend bizarre bugs, all in a classic hand-drawn 2D style.
                 </p>
+
                 <div class="game-purchase">
                     <h2>Buy Hollow Knight</h2>
-                    <p class="price">R 145.00 </p>
+                    <p class="game-price">R 145.00</p>
                     <button class="btn-buy">Buy Now</button>
                 </div>
             </div>
@@ -57,30 +57,38 @@
 
         <section class="game-trailer">
             <h2>Trailer Video</h2>
+
             <div class="trailer-wrapper">
-                <iframe width="1051" height="591" src="https://www.youtube.com/embed/UAO2urG23S4" 
-                title="Hollow Knight - Release Trailer" frameborder="0" allow="accelerometer; 
-                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="1051" height="591"
+                    src="https://www.youtube.com/embed/UAO2urG23S4"
+                    title="Hollow Knight - Release Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
 
         <section class="game-specs">
             <h2>PC Specs</h2>
-               <ul>
-                   <li>Requires a 64-bit processor and operating system</li>
-                   <li><span>OS</span>Windows 10 version 21H1 (build 19043) or newer</li>
-                   <li><span>PROCESSOR</span>Intel Core i5-3470</li>
-                   <li><span>MEMORY</span>8 GB RAM</li>
-                   <li><span>GRAPHICS</span>GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)</li>
-                   <li><span>DIRECTX</span>Version 10</li>
-                   <li><span>STORAGE</span>9 GB available space</li>
-               </ul>
+
+            <ul class="spec-list">
+                <li>Requires a 64-bit processor and operating system</li>
+                <li><span>OS</span> Windows 10 version 21H1 (build 19043) or newer</li>
+                <li><span>PROCESSOR</span> Intel Core i5-3470</li>
+                <li><span>MEMORY</span> 8 GB RAM</li>
+                <li><span>GRAPHICS</span> GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)</li>
+                <li><span>DIRECTX</span> Version 10</li>
+                <li><span>STORAGE</span> 9 GB available space</li>
+            </ul>
         </section>
     </main>
 
     <footer class="site-footer">
         <p>&copy;StoreFront 2026</p>
     </footer>
+
+    <script src="../JavaScript/script.js"></script>
 </body>
 </html>

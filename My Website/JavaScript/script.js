@@ -303,21 +303,38 @@ readMoreButtons.forEach(function(button) {
 
 });
 
-closeModal.addEventListener("click", function() {
+if (modal && modalTitle && modalDescription && closeModal) {
+    readMoreButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            const card = button.closest(".game-card");
+            const gameTitle = card.querySelector("h4").textContent;
 
-    modal.style.display = "none";
+            modalTitle.textContent = gameTitle;
+            modalDescription.textContent = gameDescriptions[gameTitle];
+            modal.style.display = "flex";
+        });
+    });
 
-});
-
-window.addEventListener("click", function(event) {
-
-    if (event.target === modal) {
-
+    closeModal.addEventListener("click", function() {
         modal.style.display = "none";
+    });
 
-    }
+    window.addEventListener("click", function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+}
 
+// BUY NOW BUTTON ON GAME PAGES
+
+const buyButtons = document.querySelectorAll(".btn-buy");
+
+buyButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        const gameTitle = document.querySelector(".game-details h1").textContent;
+        const gamePrice = document.querySelector(".game-price").textContent;
+
+        alert(gameTitle + " has been added to your cart.\nPrice: " + gamePrice);
+    });
 });
-
-console.log(modal);
-console.log(readMoreButtons);
